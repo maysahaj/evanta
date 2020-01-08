@@ -1,0 +1,60 @@
+@media (max-width:728px) {
+    .logo-section img {
+        height: 50px;
+        width: 50px;
+        margin-top: -7px;
+    }
+    .first-header{
+        display: none;
+    
+    }
+    .social a{
+        display: none;
+
+    }
+    .home .sq-top {
+        width: 100%;
+    }
+    .home h1 {
+        font-size: 22px;
+    }
+    .buttonSection .row1{
+        margin-top:10px;
+
+    }
+    .buttonSection {
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .buttonSection span img{
+        position: absolute;
+        top: 190px;
+        right: 30px;
+        opacity: .7;
+    }
+    .rowPrice{
+        margin-top: 20px;
+    }
+    .AboutSite .Aboutcloud input{
+        width:100%;
+    }
+
+ 
+ 
+}
+@media (width:768px) {
+.select-style {
+    border: 1px solid #fff;
+    width: 130px;}
+    .buttonSection input{
+        width:98%;
+        margin-left:20px;
+      
+    }
+    .AboutSite .contact-us .Aboutcloud{
+        width:100%;
+    }
+
+}
