@@ -44,7 +44,15 @@
         margin-top: 30px;
     }
 
- 
+ .logo-section{
+     display: none;
+ }
+ .dropdown{
+     display: none;
+ }
+ header{
+     display: none;
+ }
  
 }
 @media (width:768px) {
