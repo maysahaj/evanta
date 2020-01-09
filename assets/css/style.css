@@ -755,4 +755,13 @@ footer mark{
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
         background: #D8AF55;
     }
-    
+    .dropdown a{
+        color:#000;
+    }
+    .dropdown .dropdown-menu {
+        background: rgb(196, 160, 83);
+    }
+    .dropdown .dropdown-menu a:hover{
+        background: rgb(196, 160, 83);
+        color:#fff;
+    }
