@@ -551,9 +551,16 @@ line-height: 170px;
 }
 .priceSection .post{
     margin: 0 auto;
-    background: #D8AF55;
-    width:40%;
+    background:linear-gradient(to bottom,rgb(196, 160, 83),#D8AF55);
+    width:35%;
     height: 40px;
+    padding-top: 10px;
+}
+.priceSection .post .row a{
+ color:#fff;
+}
+.priceSection .post .row img{
+    height: 20px;
 }
 .AboutSite{
     background: #D8AF55;
@@ -748,3 +755,4 @@ footer mark{
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
         background: #D8AF55;
     }
+    
