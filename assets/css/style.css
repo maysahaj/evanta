@@ -103,6 +103,8 @@ a.head-text{
     opacity: 1;
     height: auto;
     position: relative;
+    clip-path: polygon(0 15%, 0 0, 13% 0, 85% 0%, 100% 1%, 100% 15%, 100% 100%, 86% 100%, 86% 93%, 12% 93%, 12% 100%, 0 100%);
+
 }
 .home .overlay {
     background: rgba(49, 55, 61, .7);
@@ -229,6 +231,10 @@ a.head-text{
     height: auto;
 
  
+}
+.catagoriesSection{
+    margin-top: -50px;
+
 }
 .catagories h2{
     color:#000;
