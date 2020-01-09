@@ -257,6 +257,11 @@ a.head-text{
     width:100%;
    
 }
+.catagories .row .card h2{
+    position: absolute;
+    margin: 8rem 2rem;
+    color:#fff;
+}
 .catagories .row h3{
     position: absolute;
     color: #fff;
@@ -660,3 +665,20 @@ footer mark{
     padding-top:20px;
     color:#5E5F60;
 }
+/*ow*/
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    display: none;}
+    .owl-theme .owl-dots .owl-dot span{
+        width: 20px;
+        height: 20px;
+        background: #D8AF55;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+        background: #D8AF55;
+    }
