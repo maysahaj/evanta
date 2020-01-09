@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
             items: 3
         },
         1025: {
-            items: 5
+            items: 4
         }
     }
 });
