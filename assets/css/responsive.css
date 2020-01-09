@@ -47,7 +47,7 @@
  .logo-section{
      display: none;
  }
- .dropdown{
+ .navbar-brand .dropdown{
      display: none;
  }
  header{
