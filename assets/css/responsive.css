@@ -40,6 +40,9 @@
     .AboutSite .Aboutcloud input{
         width:100%;
     }
+    .sec2{
+        margin-top: 30px;
+    }
 
  
  
@@ -55,6 +58,9 @@
     }
     .AboutSite .contact-us .Aboutcloud{
         width:100%;
+    }
+    .sec-md{
+        margin-top: 30px;
     }
 
 }
