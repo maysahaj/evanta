@@ -103,7 +103,7 @@ a.head-text{
     opacity: 1;
     height: auto;
     position: relative;
-    clip-path: polygon(0 15%, 0 0, 13% 0, 85% 0%, 100% 1%, 100% 15%, 100% 100%, 86% 100%, 86% 93%, 12% 93%, 12% 100%, 0 100%);
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 100%, 93% 100%, 93% 94%, 7% 94%, 7% 100%, 0 100%);
 
 }
 .home .overlay {
@@ -378,6 +378,7 @@ a.head-text{
     background: #ffffff;
     margin-bottom: 30px;
     border-radius: 2px;
+    border:1px solid rgb(228, 225, 225);
 }
 .courseSection .blog-img{
     width:100%;}
@@ -547,6 +548,12 @@ line-height: 170px;
     text-align:left;
     padding:15px;   
     font-size:18px;
+}
+.priceSection .post{
+    margin: 0 auto;
+    background: #D8AF55;
+    width:40%;
+    height: 40px;
 }
 .AboutSite{
     background: #D8AF55;
