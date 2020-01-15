@@ -876,6 +876,10 @@ footer mark{
         font-weight: bold;
         color: #000;
     }
+    .posts-evanta .row p{
+        font-size: 16px;
+    }
+
     .posts-evanta .row img{
         width: 320px;
        
