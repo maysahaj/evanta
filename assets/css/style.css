@@ -163,7 +163,7 @@ a.head-text{
         height: 45px;
         border: 0px;
         overflow: hidden;
-        background: #F5F8F9 url("../img/baseline-location_on-24px.png") no-repeat 95% 60%;
+        background: #fff url("../img/baseline-location_on-24px.png") no-repeat 95% 60%;
         border-radius: 6px;
         position: relative;
         margin: 0 auto;
@@ -768,19 +768,61 @@ footer mark{
     /*navbar2*/
     #navbar-2 .bg-dark {
         background-color: #D8AF55!important;
+        height: 70px;
     }
     #navbar-2 .navbar-dark .navbar-nav .nav-link {
         color:#000;
-        font-size:18px;
-        padding-left: 40px;
+        font-size:16px;
+        padding-right: 26px;
+        text-transform: uppercase;
+      
     }
     #navbar-2 .navbar-dark .navbar-nav .nav-link:hover{
          text-decoration: underline;
     }
     #navbar-2 .logo{
-        width:70px;
+        width:80px;
     }
-    #navbar-2 a i{
-        font-size:25px;
+    #navbar-2 .user-box a img{
+        width:45px;
+        border-left: 1px solid #000;
+   
+    }
+ ul.lists{
+        margin-left: 50px;
+    }
+    .submit-ad a{
+        color:#fff;
+    }
+    .submit-ad img{
+        width:25px;
+        
+    }
+    .submit-ad a.btn-light{
+        background: #2B2D30;
+        color: #fff;
+        border-radius: 40px;
+        font-size: 14px;
+        outline: 0px;
+        border:0px;
+        margin-left: 20px;
+    }
+    .submit-ad a.btn-light:hover{
+        color:#D8AF55;
+  
+    }
+    .search{
+        margin:20px;
+
+    }
+    .search-cat{
+        width:95%;
+        margin:0 auto;
+        background: #F3E7CD;
+        height: 70px;
+        padding:13px;
+    }
+    .search-cat .row input{
+        height: 45px;
     }
   

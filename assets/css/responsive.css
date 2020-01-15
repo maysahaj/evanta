@@ -53,6 +53,18 @@
  header{
      display: none;
  }
+ #navbar-2 .user-box a img{
+    width:38px;
+    border-left: 0px;
+
+}
+.submit-ad a.btn-light{
+  
+    margin-left: 0px;
+}
+ul.lists{
+    margin-left: 0px;
+}
  
 }
 @media (width:768px) {
@@ -69,6 +81,18 @@
     }
     .sec-md{
         margin-top: 30px;
+    }
+    #navbar-2 .user-box a img{
+        width:38px;
+        border-left: 0px;
+    
+    }
+    .submit-ad a.btn-light{
+  
+        margin-left: 0px;
+    }
+    ul.lists{
+        margin-left: 0px;
     }
 
 }
