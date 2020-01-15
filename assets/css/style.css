@@ -894,3 +894,13 @@ footer mark{
         background: #000;
     
     }
+    /*profile*/
+    .profile-user{
+        margin-top: 50px ;
+        margin-bottom: 50px;;
+        color:#000;
+        background: #fff;
+        height: auto;
+    
+
+    }
