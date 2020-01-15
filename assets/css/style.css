@@ -816,13 +816,43 @@ footer mark{
 
     }
     .search-cat{
-        width:95%;
+        width:100%;
         margin:0 auto;
         background: #F3E7CD;
-        height: 70px;
-        padding:13px;
+        height: auto;
+        padding:15px;
     }
     .search-cat .row input{
         height: 45px;
+        border: 0px;
+        outline:0px;
+        position: relative;
     }
-  
+    .search-cat .row span img{
+        position: absolute;
+        opacity: .5;
+        top:12px;
+        right: 20px;
+    }
+    .cataories-page{
+        background: url("../img/bac-cat.png");
+        background-size: cover;
+        height: 200px;
+        object-fit: cover;
+    }
+    .advertise{
+        color:#000;
+        background: #fff;
+        border:1px solid transparent;
+        height: auto;
+        text-align: center;
+
+    }
+    .advertise h2{
+        color:#000;
+
+        text-align: center;
+        font-weight: bold;
+        font-size:27px;
+
+    }
