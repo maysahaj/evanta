@@ -549,17 +549,18 @@ line-height: 170px;
     padding:15px;   
     font-size:18px;
 }
-.priceSection .post{
+ .post{
     margin: 0 auto;
     background:linear-gradient(to bottom,rgb(196, 160, 83),#D8AF55);
     width:35%;
     height: 40px;
     padding-top: 10px;
 }
-.priceSection .post .row a{
+
+ .post .row a{
  color:#fff;
 }
-.priceSection .post .row img{
+ .post .row img{
     height: 20px;
 }
 .AboutSite{
@@ -650,7 +651,7 @@ border-bottom: 1px solid rgb(218, 178, 92);
 }
 footer{
     background: #D8AF55;
-    padding:15px 20px;
+    padding:30px 20px 15px 20px;
     color:#000;
 }
 footer h2{
@@ -853,4 +854,39 @@ footer mark{
 
         font-size:27px;
 
+    }
+    .posts-evanta{
+        color:#000;
+        background: url("../img/8089.jpg_wh860.png");
+        background-size: cover;
+       height:auto;
+        width:100%;
+        object-fit: cover;
+        padding-top:50px;
+
+    }
+    .posts-evanta .row h2{
+        font-size: 30px;
+        font-weight: bold;
+        color: #D8AF55;
+        padding-top: 50px;
+    }
+    .posts-evanta .row h3{
+        font-size: 25px;
+        font-weight: bold;
+        color: #000;
+    }
+    .posts-evanta .row img{
+        width: 320px;
+       
+    }
+    .posts-evanta .row .nav a{
+        text-transform: uppercase;
+        border:3px solid #D8AF55;
+        color:#000;
+    }
+    .posts-evanta .row .nav a:hover{
+        color:#D8AF55;
+        background: #000;
+    
     }

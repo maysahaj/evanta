@@ -69,6 +69,11 @@
 ul.lists{
     margin-left: 0px;
 }
+.post {
+
+    width: 100%;
+
+}
  
 }
 @media (width:768px) {
@@ -97,6 +102,9 @@ ul.lists{
     }
     ul.lists{
         margin-left: 0px;
+    }
+    .rowPrice{
+        margin-top: 20px;
     }
 
 }
