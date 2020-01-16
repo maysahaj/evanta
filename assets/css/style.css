@@ -840,6 +840,7 @@ footer mark{
         background-size: cover;
         height: 200px;
         object-fit: cover;
+        padding-top:60px
     }
     .advertise{
         color:#000;
