@@ -74,7 +74,12 @@ ul.lists{
     width: 85%;
 
 }
- 
+.card-det .clearfix{
+    font-size: 12px;
+}
+.card-det .clearfix img{
+    width:20px;
+}
 }
 @media (width:768px) {
 .select-style {

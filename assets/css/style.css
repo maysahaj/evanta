@@ -915,7 +915,7 @@ footer mark{
 
     }
     .profile-user .card{
-        box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
     }
     .profile-user .card h3{
         font-size: 20px;
@@ -957,3 +957,12 @@ footer mark{
         border:0px;
      
     }
+    .card-det .list-group-item:hover{
+        background:transparent;
+        color:#000;
+    }
+    .card-det .card{
+ 
+   height: 34rem;
+    }
+  
