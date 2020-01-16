@@ -925,6 +925,21 @@ footer mark{
     .info .fa-circle{
         color:#D8AF55;
     }
+    .profile-user .card .list-group-flush a{
+        color:#000;
+        font-size: 18px;
+       
+    }
     .list-group-item:hover{
         background:#D8AF55;
+     
+    }
+    .list-group-item a:hover{
+        text-decoration: none;
+
+    }
+
+    .profile-user .card .list-group-flush .active {
+        background:#D8AF55;
+        border:0px;
     }
