@@ -932,13 +932,14 @@ footer mark{
     }
     .list-group-item:hover{
         background:#D8AF55;
+        color:#fff;
      
     }
     .list-group-item a:hover{
         text-decoration: none;
 
     }
-
+  
     .profile-user .card .list-group-flush .active {
         background:#D8AF55;
         border:0px;
