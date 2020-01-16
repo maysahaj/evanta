@@ -80,6 +80,9 @@ ul.lists{
 .card-det .clearfix img{
     width:20px;
 }
+.row .box-sign-in a {
+    font-size: 17px;
+}
 }
 @media (width:768px) {
 .select-style {
@@ -111,6 +114,7 @@ ul.lists{
     .rowPrice{
         margin-top: 20px;
     }
+ 
 
 }
 
