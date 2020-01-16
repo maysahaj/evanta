@@ -844,7 +844,13 @@ footer mark{
     }
     .breadcrumb{
     background: transparent;
+    color:#000;
+    font-size: 18px;
     }
+    .breadcrumb a{
+        color:rgb(172, 167, 167);
+    }
+  
     .advertise{
         color:#000;
         background: #fff;

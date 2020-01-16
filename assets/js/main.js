@@ -32,8 +32,11 @@ $(document).ready(function(){
             
 			
         }else if (scrollTop < 100){
-			$('.backTop').removeClass ('visible');
+            $('.backTop').removeClass ('visible');
+            
+           
         };
+        
     });
 	$('.backTop').click (function(){
 		$('body , html').animate({
