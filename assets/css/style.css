@@ -842,6 +842,9 @@ footer mark{
         object-fit: cover;
         padding-top:60px
     }
+    .breadcrumb{
+    background: transparent;
+    }
     .advertise{
         color:#000;
         background: #fff;

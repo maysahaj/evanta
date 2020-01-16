@@ -28,7 +28,8 @@ $(document).ready(function(){
     $(window).scroll(function(){
         scrollTop = $(window).scrollTop();
         if (scrollTop > 100){
-			$('.backTop').addClass ('visible');
+            $('.backTop').addClass ('visible');
+            
 			
         }else if (scrollTop < 100){
 			$('.backTop').removeClass ('visible');
@@ -40,6 +41,7 @@ $(document).ready(function(){
 		},800);
 	});
 });
+
 
 
 
