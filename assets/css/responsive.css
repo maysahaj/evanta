@@ -108,3 +108,12 @@ ul.lists{
     }
 
 }
+
+@media(max-width:1024px){
+    #navbar-2 .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+        font-size: 12px;
+        padding-right: 20px;
+        text-transform: uppercase;
+    }
+}
