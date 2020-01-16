@@ -836,7 +836,7 @@ footer mark{
         right: 20px;
     }
     .cataories-page{
-        background: url("../img/bac-cat.png");
+        background: url("../img/icon/Group 2872.png");
         background-size: cover;
         height: 200px;
         object-fit: cover;
@@ -940,7 +940,10 @@ footer mark{
 
     }
   
+  
     .profile-user .card .list-group-flush .active {
         background:#D8AF55;
+        box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
         border:0px;
+     
     }
