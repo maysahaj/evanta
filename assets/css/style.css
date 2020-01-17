@@ -1126,5 +1126,73 @@ footer mark{
 .Not-setting .not-box{
     box-shadow: 0px 5px 10px 5px rgb(238, 233, 222);
     color:#000;
+    padding: 20px;
 
 }
+.Not-setting .check-E{
+    display: block;
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .Not-setting  .check-E input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .Not-setting  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border:2px solid #000;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .Not-setting   .check-E:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .Not-setting   .check-E input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .Not-setting  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .Not-setting  .check-E input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .check-E .checkmark:after {
+    left: 5px;
+    top: -2px;
+    width: 5px;
+    height: 16px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
