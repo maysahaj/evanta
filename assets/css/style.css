@@ -1126,7 +1126,7 @@ footer mark{
 .Not-setting .not-box{
     box-shadow: 0px 3px 3px 3px rgb(241, 241, 239);
     color:#000;
-    padding: 20px;
+    padding: 18px;
 
 }
 .Not-setting .check-E{
@@ -1195,4 +1195,13 @@ footer mark{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+  button.save-notif{
+      padding: 8px 100px;
+      text-align: center;
+      background: #D8AF55;
+      border:none;
+      border-radius: 0px;
+      margin-bottom: 30px;
+
   }
