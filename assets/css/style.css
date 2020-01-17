@@ -1114,4 +1114,17 @@ footer mark{
 }
 .Not-setting h1{
     font-weight: bold;
+    color: #2F3030;
+    font-size: 25px;
+    padding-bottom:15px;
+}
+.Not-setting h2{
+    font-weight: bold;
+    color:#D8AF55;
+    font-size: 22px;
+}
+.Not-setting .not-box{
+    box-shadow: 0px 5px 10px 5px rgb(238, 233, 222);
+    color:#000;
+
 }
