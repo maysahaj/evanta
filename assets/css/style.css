@@ -1124,7 +1124,7 @@ footer mark{
     font-size: 22px;
 }
 .Not-setting .not-box{
-    box-shadow: 0px 5px 10px 5px rgb(238, 233, 222);
+    box-shadow: 0px 3px 3px 3px rgb(241, 241, 239);
     color:#000;
     padding: 20px;
 
@@ -1156,8 +1156,8 @@ footer mark{
     position: absolute;
     top: 0;
     left: 0;
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     background-color: #eee;
     border:2px solid #000;
   }
@@ -1188,7 +1188,7 @@ footer mark{
   .check-E .checkmark:after {
     left: 5px;
     top: -2px;
-    width: 5px;
+    width: 6px;
     height: 16px;
     border: solid black;
     border-width: 0 3px 3px 0;
