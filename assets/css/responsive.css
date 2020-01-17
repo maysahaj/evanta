@@ -94,6 +94,10 @@ ul.lists{
     font-size: 15px;
     font-weight: normal;
 }
+.Not-setting .notification a{
+    color:#D8AF55;
+    font-size: 14px;
+}
 }
 @media (max-width:992px) {
 .select-style {

@@ -1217,5 +1217,20 @@ footer mark{
       background: #fff;
       font-weight: bold;
   }
+  .Not-setting .notification a{
+      color:#D8AF55;
+      font-size: 16px;
+  }
+  .Not-setting .notification a:hover{
+      text-decoration: none;
+      color:#E9C983;
+  }
+  .markNot{
+      border-right: 1px solid #D8AF55;
+      padding-right:15px;
+  }
+  .Not-setting .notification a i{
+    font-size: 20px;
 
+  }
  
