@@ -1018,11 +1018,18 @@ footer mark{
     color: #D8AF55;
     background-color: #fff;
 }
+.login .row .forget a{
+    color:#000;
+}
+.login .row .forget a:hover{
+    color:#D8AF55;
+}
 .login .row .submit{
     margin: 0 auto;
     display: flex;
     background: #D8AF55;
     border: 0px;
+    text-transform: uppercase;
 }
   .loginPage h1{
       color:#D8AF55;
@@ -1042,13 +1049,15 @@ footer mark{
     border-left: 0px;
     border-right: 0px;
     outline: none;
-    border-bottom: 1px solid #2367A5;
+    border-bottom: 1px solid #000;
   }
   .row .box-sign-in input:hover{
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     outline: none;
+    border:1px solid #D8AF55;
+    box-shadow: 0px;
   }
   .row .box-sign-in label{
   font-size: 16px;
