@@ -1003,7 +1003,7 @@ footer mark{
       padding: 50px 30px;
       color:#000;
   }
-  .row .box-sign-in a{
+  .row .box-sign-in ul li a{
     font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
@@ -1012,7 +1012,18 @@ footer mark{
   .row .box-sign-in a:hover{
       text-decoration: none;
       color:#D8AF55;
+      background: #fff;
   }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #D8AF55;
+    background-color: #fff;
+}
+.login .row .submit{
+    margin: 0 auto;
+    display: flex;
+    background: #D8AF55;
+    border: 0px;
+}
   .loginPage h1{
       color:#D8AF55;
       font-weight: bold;
