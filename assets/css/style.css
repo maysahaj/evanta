@@ -1124,9 +1124,10 @@ footer mark{
     font-size: 22px;
 }
 .Not-setting .not-box{
-    box-shadow: 0px 3px 3px 3px rgb(241, 241, 239);
+    box-shadow: 2px 2px 2px 2px rgb(241, 241, 239);
     color:#000;
     padding: 18px;
+    
 
 }
 .Not-setting .check-E{
@@ -1201,7 +1202,18 @@ footer mark{
       text-align: center;
       background: #D8AF55;
       border:none;
-      border-radius: 0px;
+      border-radius: 6px;
       margin-bottom: 30px;
+      color:#fff;
+      outline: 0px;
+      
 
   }
+  button.save-notif:hover{
+      border:2px solid #D8AF55;
+      color: #D8AF55;
+      background: #fff;
+      font-weight: bold;
+  }
+
+ 
