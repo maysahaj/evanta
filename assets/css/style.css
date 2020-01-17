@@ -838,9 +838,9 @@ footer mark{
     .cataories-page{
         background: url("../img/icon/Group 2872.png");
         background-size: cover;
-        height: 200px;
+        height: 180px;
         object-fit: cover;
-        padding-top:60px
+        padding-top:50px
     }
     .breadcrumb{
     background: transparent;
