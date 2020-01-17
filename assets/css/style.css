@@ -1000,16 +1000,16 @@ footer mark{
 
   }
   .row .box-sign-in{
-      padding: 50px 30px;
+      padding: 30px 30px;
       color:#000;
   }
-  .row .box-sign-in a{
-    font-size: 23px;
+  .row .box-sign-in ul li  a{
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color:rgb(133, 132, 131);
   }
-  .row .box-sign-in a:hover{
+  .row .box-sign-in ul li a:hover{
       text-decoration: none;
       color:#D8AF55;
       background: #fff;
@@ -1020,9 +1020,28 @@ footer mark{
 }
 .login .row .forget a{
     color:#000;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.login .row .forget a:hover{
+    text-decoration: none;
 }
 .login .row .forget a:hover{
     color:#D8AF55;
+}
+.login .row .forget span{
+    font-weight: normal;
+    color:#000;
+}
+.login .row .forget span a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.login .row .forget span strong{
+    color:#D8AF55;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 .login .row .submit{
     margin: 0 auto;
@@ -1031,11 +1050,18 @@ footer mark{
     border: 0px;
     text-transform: uppercase;
 }
+.login .row .submit:hover{
+    background: #ffff;
+    border: 0px;
+    color:#D8AF55;
+    border:1px solid #D8AF55;
+
+}
   .loginPage h1{
       color:#D8AF55;
       font-weight: bold;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 28px;
       font-size: 30px;
   }
   .login .row img{
@@ -1062,3 +1088,19 @@ footer mark{
   .row .box-sign-in label{
   font-size: 16px;
   }
+  .row .box-sign-in .contact a i{
+    font-size: 20px;
+    border: 1px solid #D8AF55;
+    padding: 18px 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 0px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -5px;
+    color:#D8AF55;
+}
+.row .box-sign-in .contact a i:hover{
+  background: #D8AF55;
+  color:#fff;
+}

@@ -114,6 +114,9 @@ ul.lists{
     .rowPrice{
         margin-top: 20px;
     }
+    .row .box-sign-in ul li a {
+        font-size: 16px;
+    }
  
 
 }
