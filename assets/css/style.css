@@ -1108,3 +1108,10 @@ footer mark{
     text-decoration: underline;
 }
 /*NOTIFIVATION PAGE SETTING*/
+.Not-setting{
+    color:#000;
+    padding-top:40px;
+}
+.Not-setting h1{
+    font-weight: bold;
+}
