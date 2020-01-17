@@ -1003,7 +1003,7 @@ footer mark{
       padding: 50px 30px;
       color:#000;
   }
-  .row .box-sign-in ul li a{
+  .row .box-sign-in a{
     font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
