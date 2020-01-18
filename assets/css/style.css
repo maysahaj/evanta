@@ -1234,9 +1234,11 @@ footer mark{
 
   }
   .Not-setting .not-details{
-    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-    box-shadow: 0px 5px 30px 10px rgba(148, 146, 245, 0.15);
-    padding: 8px 20px;
+    box-shadow: 0px 5px 30px 10px rgba(151, 151, 155, 0.15);
+    padding-top:20px;
+    padding-right: 20px;
+    padding-left: 12px;
+
 
   }
   .Not-setting .not-details img{
@@ -1244,20 +1246,52 @@ footer mark{
   height: 80px;
   border-radius: 50%;
   }
+  .Not-setting .not-details .row{
+      margin-bottom: 20px;
+  }
   .not-details h6{
       text-align: right;
   }
   .not-details .info-Not{
       margin-top:15px;
 }
-.not-details .info-Not h2{
+.not-details .info-Not a{
     color:#000;
     font-size: 16px;
+    font-weight: bold;
 
 }
+
 .not-details .info-Not p{
     color:#000;
     font-size: 14px;
 
 }
+.not-box .not-details .info-Not a:hover{
+    color:#D8AF55;
+    text-decoration:none;
+
+}
+
+button.More-notif{
+    padding: 4px 60px;
+    text-align: center;
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    color:#fff;
+    outline: 0px;
+    margin:0 auto;
+    display: flex;
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+button.More-notif:hover{
+    border:2px solid #D8AF55;
+    color: #D8AF55;
+    background: #fff;
+    font-weight: bold;
+}
+
  
