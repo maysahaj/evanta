@@ -1324,7 +1324,7 @@ button.More-notif:hover{
 /*contactpage*/
 .contact-page .contact-us {
     margin:0 auto;
-    border:1px solid #fff;
+    border:1px solid transparent;
     width:100%;
 }
 .contact-page  form {
