@@ -57,7 +57,7 @@
 			  <a class="navbar-brand" href="#">
 				<div class="dropdown">
 					<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<img class ="mr-1" src="assets/img/Group 2738.png" alt="">عربي
+						<img class ="mr-2 img-index" src="assets/img/Group 2738.png" alt="">عربي
 					</a>
 				  
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -102,8 +102,23 @@
 				</ul>
 				<div class="settings  row text-center">
 					<div class="col">
-						<a href=""><i class="fas fa-bell"></i>
+						<a data-toggle="modal" data-target="#exampleModal"><i class="fas fa-bell"></i>
 							<br>Notifications</a>
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+								  <div class="modal-content ">
+									<div class="notification clearfix pt-5">
+										<div class="float-left">
+											Notifications
+										</div>
+										<div class="float-right">
+											<a class = "markNot" href="">Mark All As Read</a>
+											<a href=""><i class="fas fa-cog pl-2"></i></a>		
+										</div>
+									</div>
+								  </div>
+								</div>
+							  </div>
 					</div>
 					<div class="col">
 						<a href="login.html"><i class="fas fa-unlock-alt"></i>
