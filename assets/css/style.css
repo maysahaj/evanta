@@ -1240,21 +1240,24 @@ footer mark{
 
   }
   .Not-setting .not-details img{
-  width: 85px;
-  height: 85px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   }
   .not-details h6{
       text-align: right;
   }
   .not-details .info-Not{
-      margin-top:10px;
-      margin-left: -50px;
-
+      margin-top:15px;
 }
 .not-details .info-Not h2{
     color:#000;
-    font-size: 18px;
+    font-size: 16px;
+
+}
+.not-details .info-Not p{
+    color:#000;
+    font-size: 14px;
 
 }
  

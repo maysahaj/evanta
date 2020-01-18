@@ -98,11 +98,7 @@ ul.lists{
     color:#D8AF55;
     font-size: 14px;
 }
-.not-details .info-Not{
-    margin-top:10px;
-    margin-left: 0px;
 
-}
 }
 @media (max-width:992px) {
 .select-style {
@@ -153,15 +149,11 @@ ul.lists{
      
         font-size: 14px;
     }
-    .not-details .info-Not{
-        margin-top:10px;
-        margin-left: -10px;
-  
-  }
+   
 
 }
 
-@media(max-width:1024px){
+@media(width:1024px){
     #navbar-2 .navbar-dark .navbar-nav .nav-link {
         color: #000;
         font-size: 12px;
@@ -169,8 +161,7 @@ ul.lists{
         text-transform: uppercase;
     }
     .not-details .info-Not{
-        margin-top:10px;
-        margin-left: -30px;
-  
+        margin-top:15px;
+        padding-left: 30px;
   }
 }
