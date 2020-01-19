@@ -1417,7 +1417,7 @@ button.send:hover{
     padding-top: 5px;
 }
 .card-card img {
-    width: 130px;
+    width: 100%;
     border-radius: 5px;
 }
 .card-card a span{
