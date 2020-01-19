@@ -831,7 +831,7 @@ footer mark{
         margin:0 auto;
         background: #F3E7CD;
         height: auto;
-        padding:15px;
+        padding:12px;
     }
     .search-cat .row input{
         height: 45px;
@@ -848,9 +848,9 @@ footer mark{
     .cataories-page{
         background: url("../img/icon/Group 2872.png");
         background-size: cover;
-        height: 180px;
+        height: 160px;
         object-fit: cover;
-        padding-top:50px
+        padding-top:40px
     }
     .cataories-page h2{
         margin-left: 15px;
