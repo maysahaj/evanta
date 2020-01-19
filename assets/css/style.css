@@ -852,6 +852,9 @@ footer mark{
         object-fit: cover;
         padding-top:50px
     }
+    .cataories-page h2{
+        margin-left: 15px;
+    }
     .breadcrumb{
     background: transparent;
     color:#000;
