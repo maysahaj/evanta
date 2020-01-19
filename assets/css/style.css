@@ -1463,5 +1463,13 @@ span {cursor:pointer; }
 }
 
 
+.payment-page{
+    color:#000;
+    padding-top: 40px;
+}
+.payment-page h1{
+    font-weight: bold;
+    font-size: 27px;
+}
 
 
