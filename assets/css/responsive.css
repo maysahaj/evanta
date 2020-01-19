@@ -103,9 +103,9 @@ ul.lists{
 @media (max-width:992px) {
 .select-style {
     border: 1px solid #fff;
-    width: 130px;}
+    width: 100%;}
     .buttonSection input{
-        width:98%;
+        width:86%;
         margin-left:20px;
       
     }
