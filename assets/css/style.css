@@ -1474,4 +1474,7 @@ span {cursor:pointer; }
 .payment-page .nav-pills li{
     margin:0 auto;
 }
-
+.payment-page img{
+    width: 150px;
+    height: 60px;
+}
