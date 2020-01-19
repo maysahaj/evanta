@@ -1393,18 +1393,14 @@ button.send:hover{
 }
 .table-dark td, .table-dark th, .table-dark thead th {
     border-color: #ffffff;
-}.card-card {
-    width: 26rem;
-    max-height: 126px;
 }
 .card-card h1 {
-    text-align: right;
+ 
     font-size: 19px;
-    font-weight: bold;
     color: #252526;
 }
 .card-card p {
-    text-align: right !important;
+  
     font-size: 13px;
     color: #515C6F;
     font-weight: 400;
