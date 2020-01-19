@@ -1362,3 +1362,13 @@ button.send:hover{
     background: #fff;
     
 }
+.cart-empty{
+    color:rgb(77, 73, 73);
+    text-align:center ;
+    padding-top:100px;
+    padding: 100px;
+}
+.cart-empty h2{
+    font-weight: bold;
+    
+}
