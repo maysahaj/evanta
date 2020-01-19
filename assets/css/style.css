@@ -1471,5 +1471,7 @@ span {cursor:pointer; }
     font-weight: bold;
     font-size: 27px;
 }
-
+.payment-page .nav-pills li{
+    margin:0 auto;
+}
 
