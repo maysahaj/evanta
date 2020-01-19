@@ -1349,3 +1349,16 @@ button.More-notif:hover{
 .contact-page form textarea{
     height: 150px;
 }
+button.send{
+    background: #D8AF55;
+    border: 0px;
+    color:#fff;
+    width:250px;
+
+}
+button.send:hover{
+    border:2px solid #D8AF55;
+    color: #D8AF55;
+    background: #fff;
+    
+}
