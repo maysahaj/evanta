@@ -1330,6 +1330,7 @@ button.More-notif:hover{
 .contact-page  form {
     margin-top:30px;
     padding-bottom: 30px;
+    color:#000;
 
 }
 .contact-page .contact-us h3 {
@@ -1341,4 +1342,10 @@ button.More-notif:hover{
     color: #4E4E4E;
     font-size: 15px;
 }
- 
+.contact-page form input{
+    height: 40px;
+
+}
+.contact-page form textarea{
+    height: 150px;
+}
