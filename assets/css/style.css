@@ -1523,3 +1523,6 @@ span {cursor:pointer; }
 .card-ban:hover{
         box-shadow: 0px 0px 7px #ccc;
     }
+ .customer-info input{
+     height: 60px;
+ }
