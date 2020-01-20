@@ -1537,3 +1537,16 @@ span {cursor:pointer; }
     padding: 20px;
     height: 80px;
  }
+ .payment-visa h2{
+     font-weight: bold;
+     font-size: 18px;
+ }
+ .payment-visa label{
+     color:rgb(168, 164, 164);
+    font-size: 15px;
+}
+ .payment-d {
+    width: 45%;
+    margin: 0 auto;
+    
+}
