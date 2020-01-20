@@ -1500,8 +1500,10 @@ span {cursor:pointer; }
 }
 .payment-option .row img{
     background-color: #fff;
-    padding:10px;
-    height:80px;
+    padding:20px;
+    height: 80px;
+    border:1px solid  rgb(245, 243, 241);
+    
     
 }
 
