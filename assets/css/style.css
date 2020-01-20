@@ -1490,7 +1490,7 @@ span {cursor:pointer; }
 
 }
  .payment-option{
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     
 }
@@ -1525,4 +1525,8 @@ span {cursor:pointer; }
     }
  .customer-info input{
      height: 60px;
+ }
+ .customer-info textarea{
+     height: 120px;
+     overflow: hidden;
  }
