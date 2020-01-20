@@ -115,12 +115,12 @@ ul.lists{
     margin: 0 auto ;
 }
 }
-@media (min-width:768px) {
+@media (width:768px) {
 .select-style {
     border: 1px solid #fff;
     width: 100%;}
     .buttonSection input{
-        width:94%;
+        width:86%;
         margin-left:20px;
       
     }
@@ -150,9 +150,6 @@ ul.lists{
     }
     .row .box-sign-in label {
         font-size: 11px;
-    }
-    .buttonSection {
-        width: 100%;
     }
     .row .box-sign-in input {
     
