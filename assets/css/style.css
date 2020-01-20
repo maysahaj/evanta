@@ -1598,4 +1598,10 @@ a.btn-con:hover{
     font-size: 18px;
     font-weight: bold;
 }
+.info-bill .table tr td{
+    border-top: 0px;
+}
+.info-bill .table .row img{
+width: 85%;
+}
 
