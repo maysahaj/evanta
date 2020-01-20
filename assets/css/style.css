@@ -1546,7 +1546,7 @@ span {cursor:pointer; }
     font-size: 15px;
 }
  .payment-d {
-    width: 40%;
+    width: 55%;
     margin: 0 auto;
     
 }
@@ -1560,7 +1560,12 @@ button.btn-con{
     outline: 0px;
     margin-top:40px;
     margin-bottom:40px;
+    font-weight: bold;
 
+}
+.payment-d form{
+    width:55%;
+    margin:0 auto
 }
 button.btn-con:hover{
     border:1px solid #D8AF55;
