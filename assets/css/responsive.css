@@ -151,6 +151,9 @@ ul.lists{
     .row .box-sign-in label {
         font-size: 11px;
     }
+    .buttonSection {
+        width: 100%;
+    }
     .row .box-sign-in input {
     
         font-size: 10px;
