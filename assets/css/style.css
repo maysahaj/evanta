@@ -1475,6 +1475,15 @@ span {cursor:pointer; }
     margin:0 auto;
 }
 .payment-page img{
-    width: 150px;
+    width: 100px;
     height: 60px;
+    padding:10px;
+    
+}
+.payment-page  .nav-link.active, .payment-page .show>.nav-link {
+    color: #D8AF55;
+    background-color: #fff;
+    box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+
+
 }
