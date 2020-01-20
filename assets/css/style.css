@@ -1498,15 +1498,23 @@ span {cursor:pointer; }
     margin: 0 auto;
     
 }
-.payment-option .row img{
+.payment-option .row .card-ban{
     background-color: #fff;
-    padding:20px;
-    height: 80px;
+   
+    height: 100px;
     border:1px solid  rgb(245, 243, 241);
     
     
 }
 
-.payment-option .row img:hover{
+.payment-option .row .card-ban:hover{
     box-shadow: 0px 0px 7px #ccc;
+}
+
+.payment-option h5{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  
 }
