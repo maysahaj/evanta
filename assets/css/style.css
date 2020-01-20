@@ -1546,11 +1546,16 @@ span {cursor:pointer; }
     font-size: 15px;
 }
  .payment-d {
-    width: 55%;
+    width: 70%;
     margin: 0 auto;
     
 }
-button.btn-con{
+.payment-d form{
+    width:50%;
+    margin:0 auto
+}
+
+a.btn-con{
    
     text-align: center;
     background: #D8AF55;
@@ -1558,20 +1563,29 @@ button.btn-con{
     border-radius: 6px;
     color:#fff;
     outline: 0px;
+    margin: 0 auto;
     margin-top:40px;
     margin-bottom:40px;
     font-weight: bold;
+   
 
 }
-.payment-d form{
-    width:55%;
-    margin:0 auto
-}
-button.btn-con:hover{
+
+a.btn-con:hover{
     border:1px solid #D8AF55;
     color: #D8AF55;
     background: #fff;
  
 }
-
+.cash-payment{
+    margin:0 auto;
+    text-align: center;
+    width:50%;
+}
+.cash-payment h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #D8AF55;
+}
 
