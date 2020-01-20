@@ -1475,6 +1475,12 @@ span {cursor:pointer; }
     margin:0 auto;
 }
 .payment-page img{
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.payment-page .nav-item img{
     width: 100px;
     height: 60px;
     padding:10px;
@@ -1486,4 +1492,18 @@ span {cursor:pointer; }
     box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
 
 
+}
+ .payment-option{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.payment-option .row img{
+    background-color: #fff;
+    padding:20px;
+    height: 50px;
+}
+
+.card-ban:hover{
+    box-shadow: 0px 0px 7px #ccc;
 }

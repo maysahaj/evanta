@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="91" viewBox="0 0 1242 91">
+  <g id="Group_2873" data-name="Group 2873" transform="translate(-347 -415)">
+    <text id="Customer_info" data-name="Customer info" transform="translate(347 498)" fill="gray" font-size="30" font-family="SegoeUI, Segoe UI" opacity="0.65"><tspan x="0" y="0">Customer info</tspan></text>
+    <text id="Payment_method_" data-name="Payment method " transform="translate(1338 498)" fill="#2f3030" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Payment method </tspan></text>
+    <line id="Line_269" data-name="Line 269" x2="1128" transform="translate(396.5 439.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Ellipse_368" data-name="Ellipse 368" transform="translate(347 415)" fill="none" stroke="#000" stroke-width="1">
+      <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
+      <circle cx="24.5" cy="24.5" r="24" fill="none"/>
+    </g>
+    <g id="Ellipse_369" data-name="Ellipse 369" transform="translate(1524 415)" fill="none" stroke="#000" stroke-width="1">
+      <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
+      <circle cx="24.5" cy="24.5" r="24" fill="none"/>
+    </g>
+    <g id="_2" data-name=" 2" transform="translate(361 429)" opacity="0.66">
+      <path id="Union_1" data-name="Union 1" d="M0,20.216V17.689c0-2.78,4.549-5.055,10.108-5.055s10.108,2.274,10.108,5.055v2.527ZM5.053,5.055a5.054,5.054,0,1,1,5.055,5.053A5.054,5.054,0,0,1,5.053,5.055Z" fill="gray"/>
+    </g>
+    <g id="credit-card" transform="translate(1532.954 423.989)">
+      <g id="Group_83" data-name="Group 83" transform="translate(0 0.011)">
+        <g id="Group_82" data-name="Group 82" transform="translate(0 0)">
+          <path id="Path_402" data-name="Path 402" d="M30.389,10.723,20.5.838a2.84,2.84,0,0,0-4.008,0L.827,16.507a2.84,2.84,0,0,0,0,4.008l1.219,1.219h0l8.192,8.192H9.1a.65.65,0,1,0,0,1.3H22.111a.65.65,0,1,0,0-1.3H15.193l15.2-15.2A2.837,2.837,0,0,0,30.389,10.723Zm-.92,3.088L13.8,29.48a1.522,1.522,0,0,1-1.082.446h0a1.521,1.521,0,0,1-1.081-.446L3.426,21.274,18.474,6.226a.65.65,0,1,0-.92-.92L2.507,20.354l-.759-.759a1.54,1.54,0,0,1,0-2.168L17.416,1.758a1.54,1.54,0,0,1,2.168,0L23.1,5.276,8.055,20.324a.65.65,0,1,0,.92.92L24.022,6.2l5.447,5.447A1.535,1.535,0,0,1,29.469,13.811Z" transform="translate(0 -0.011)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_403" data-name="Path 403" d="M166.886,305.131a.65.65,0,0,0-.92,0l-5.118,5.117a.65.65,0,1,0,.92.92l5.118-5.117A.65.65,0,0,0,166.886,305.131Z" transform="translate(-150.863 -286.349)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_404" data-name="Path 404" d="M193.116,384.807l-2.1,2.1a.65.65,0,1,0,.92.92l2.1-2.1a.65.65,0,1,0-.92-.92Z" transform="translate(-179.191 -361.167)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_405" data-name="Path 405" d="M252.871,353.132l-.276.276a.65.65,0,1,0,.92.92l.276-.276a.65.65,0,1,0-.92-.92Z" transform="translate(-237.015 -331.423)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_406" data-name="Path 406" d="M347.479,160.859a.65.65,0,0,0-.92,0l-2.759,2.759a.65.65,0,0,0,0,.92l1.839,1.839a.65.65,0,0,0,.92,0l2.759-2.759a.65.65,0,0,0,0-.92ZM346.1,165l-.92-.92,1.839-1.839.92.92Z" transform="translate(-322.66 -150.874)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_407" data-name="Path 407" d="M310.323,55.9a.648.648,0,0,0,.46-.191l.276-.276a.65.65,0,0,0-.92-.92l-.276.276a.65.65,0,0,0,.46,1.11Z" transform="translate(-290.792 -51.015)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+          <path id="Path_408" data-name="Path 408" d="M100.033,355.123l-.276.276a.65.65,0,0,0,.92.92l.276-.276a.65.65,0,0,0-.92-.92Z" transform="translate(-93.496 -333.293)" fill="#d8af55" stroke="#d8af55" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
