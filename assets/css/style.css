@@ -947,6 +947,7 @@ footer mark{
     .info .fa-circle{
         color:#D8AF55;
     }
+    /*
     .profile-user .card .list-group-flush a{
         color:#000;
         font-size: 18px;
@@ -988,7 +989,7 @@ footer mark{
         font-size: 18px;
         color:#D8AF55;
         font-weight: normal;
-        }
+        }*/
   /*login page*/
   .loginPage{
       margin-top: 60px;
@@ -1587,5 +1588,14 @@ a.btn-con:hover{
     padding-bottom: 20px;
     font-weight: bold;
     color: #D8AF55;
+}
+.info-bill{
+    margin-top:30px;
+    margin-bottom:30px;
+    color:#000;
+}
+.info-bill .card h2{
+    font-size: 18px;
+    font-weight: bold;
 }
 
