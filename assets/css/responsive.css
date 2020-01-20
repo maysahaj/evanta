@@ -120,10 +120,12 @@ ul.lists{
     border: 1px solid #fff;
     width: 100%;}
     .buttonSection input{
-        width:86%;
+        width:95%;
         margin-left:20px;
       
     }
+    .buttonSection {
+        width: 100%;}
     .AboutSite .contact-us .Aboutcloud{
         width:100%;
     }
