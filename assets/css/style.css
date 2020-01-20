@@ -1550,3 +1550,23 @@ span {cursor:pointer; }
     margin: 0 auto;
     
 }
+button.btn-con{
+   
+    text-align: center;
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    color:#fff;
+    outline: 0px;
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+button.btn-con:hover{
+    border:2px solid #D8AF55;
+    color: #D8AF55;
+    background: #fff;
+    font-weight: bold;
+}
+
+
