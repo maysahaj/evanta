@@ -1533,3 +1533,7 @@ span {cursor:pointer; }
      overflow: hidden;
 
  }
+ .payment-page .nav-item img{
+    padding: 20px;
+    height: 80px;
+ }
