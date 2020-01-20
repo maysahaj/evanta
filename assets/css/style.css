@@ -1563,10 +1563,10 @@ button.btn-con{
 
 }
 button.btn-con:hover{
-    border:2px solid #D8AF55;
+    border:1px solid #D8AF55;
     color: #D8AF55;
     background: #fff;
-    font-weight: bold;
+ 
 }
 
 
