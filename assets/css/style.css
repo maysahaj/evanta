@@ -1500,10 +1500,11 @@ span {cursor:pointer; }
 }
 .payment-option .row img{
     background-color: #fff;
-    padding:20px;
-    height: 50px;
+    padding:10px;
+    height:80px;
+    
 }
 
-.card-ban:hover{
+.payment-option .row img:hover{
     box-shadow: 0px 0px 7px #ccc;
 }
