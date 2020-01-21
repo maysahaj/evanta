@@ -123,6 +123,9 @@ ul.lists{
     width:100%;
     margin:0 auto
 }
+.work-sec .card .row {
+     margin-top:20px;
+}
 }
 @media (width:768px) {
 .select-style {

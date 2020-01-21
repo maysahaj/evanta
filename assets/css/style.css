@@ -1664,3 +1664,11 @@ padding-right: 30px;
 .work-sec .card img{
 width: 100%;
 }
+.work-sec .card .row h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.work-sec .card .row p{
+    font-size: 16px;
+}
+
