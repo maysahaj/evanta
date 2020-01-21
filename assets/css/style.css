@@ -1681,3 +1681,7 @@ width: 100%;
     font-weight: bold;
     font-size: 22px;
 }
+.Terms .row span{
+    font-weight: bold;
+    padding-right:8px;
+}
