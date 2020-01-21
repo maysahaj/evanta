@@ -1671,4 +1671,13 @@ width: 100%;
 .work-sec .card .row p{
     font-size: 16px;
 }
+.Terms{
+    margin-top:30px;
+    margin-bottom: 30px;
+    color:#000;
 
+}
+.Terms h2{
+    font-weight: bold;
+    font-size: 22px;
+}
