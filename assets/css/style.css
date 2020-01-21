@@ -1693,3 +1693,7 @@ width: 100%;
     color:rgb(26, 25, 25);
     font-size: 16px;
 }
+
+.Terms .row .card img{
+    width:100%;
+}
