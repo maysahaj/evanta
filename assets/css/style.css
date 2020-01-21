@@ -1309,7 +1309,25 @@ button.More-notif:hover{
     background: #fff;
     font-weight: bold;
 }
-
+/*
+.settings .modal {
+    position: fixed;
+    top: 94px;
+    right: -812px;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(33% 40%, 50% 5%, 66% 42%, 100% 42%, 100% 65%, 0 64%, 0 41%);
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+/*contactpage*/
 .contact-page .contact-us {
     margin:0 auto;
     border:1px solid transparent;
@@ -1591,5 +1609,26 @@ width: 50%;
     padding: 0.25rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
+}
+button.btn-confirm{
+    text-align: center;
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    color:#fff;
+    outline: 0px;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-weight: bold;
+    width:20%;
+   
+
+}
+
+button.btn-confirm:hover{
+    border:1px solid #D8AF55;
+    color: #D8AF55;
+    background: #fff;
+    outline: 0px;
 }
 
