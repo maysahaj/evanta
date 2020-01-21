@@ -1659,4 +1659,8 @@ button.btn-confirm:hover{
 .work-sec .card{
 box-shadow: 0px 5px 30px 10px rgba(217, 217, 223, 0.15);
 padding: 30px;
+padding-right: 30px;
+}
+.work-sec .card img{
+width: 100%;
 }
