@@ -1631,4 +1631,24 @@ button.btn-confirm:hover{
     background: #fff;
     outline: 0px;
 }
+.booked-success{
+    margin:0 auto;
+    text-align: center;
+
+}
+.booked-success h2{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.booked-success p{
+    font-size: 17px;
+    color:rgb(146, 148, 150);
+
+}
+.booked-success .p1{
+    padding-bottom:20px;
+    border-bottom:1px solid rgb(184, 185, 185);
+
+}
 
