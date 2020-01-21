@@ -1651,4 +1651,10 @@ button.btn-confirm:hover{
     border-bottom:1px solid rgb(184, 185, 185);
 
 }
-
+.work-sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.work-sec .card{
+box-shadow: 0px 5px 30px 10px rgba(217, 217, 223, 0.15);
+}
