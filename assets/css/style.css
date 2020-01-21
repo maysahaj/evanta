@@ -1679,7 +1679,7 @@ width: 100%;
 }
 .Terms h2{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
 }
 .Terms .row span{
     font-weight: bold;
@@ -1687,5 +1687,9 @@ width: 100%;
 }
 .Terms .row h3{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
+}
+.Terms .row p{
+    color:rgb(26, 25, 25);
+    font-size: 16px;
 }
