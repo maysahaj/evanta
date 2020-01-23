@@ -1094,6 +1094,16 @@ font-size: 15px;}
 color: #fff;
 font-size: 20px;
 }
+.box-form-tnfo{
+    padding: 20px;
+}
+.box-form-tnfo h5{
+    border-bottom:1px solid #C9C9C9;
+    padding-bottom: 20px;
+}
+.box-form-tnfo form{
+   margin-top: 20px;
+}
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
