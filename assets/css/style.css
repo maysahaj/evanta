@@ -1042,6 +1042,23 @@ border: 1px solid #D8AF55;
 .profile-user .Follower-card .fa-check{
     color:#D8AF55;
 }
+.profile-user .modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    -ms-flex-pack: end;
+    justify-content: flex-center;
+    padding: 1rem;
+    padding: 0 auto;
+    display: flex;
+    margin: 0 auto;
+}
+.profile-user .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin: 0 auto;
+}
 
   .loginPage{
       margin-top: 60px;
