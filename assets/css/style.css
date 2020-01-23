@@ -940,6 +940,19 @@ footer mark{
     .profile-user .card .row{
         padding:20px 20px 15px 20px;
     }
+    .profile-user .nav-pills .nav-link {
+        color: #000;
+        border-radius: .25rem;
+        border-bottom: 1px solid rgb(180, 178, 178);
+        padding: 15px;
+    }
+    .profile-user .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #D8AF55;
+    }
+    .profile-user .row .col-lg-4 .card{
+        margin-bottom: 30px;
+    }
     .info{
         margin-left: -25px;
         margin-top: 5px;
