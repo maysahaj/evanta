@@ -1013,7 +1013,7 @@ footer mark{
         padding: .75em 2em;
         font-size: 100%;
         font-weight: normal;
-        color:#D8AF55;
+        color:#000;
     }
     .profile-user .Follower-card .list-group-item img {
         width: 100%;
@@ -1021,6 +1021,10 @@ footer mark{
     .profile-user .Follower-card  .row {
          padding:0px;
     }
+
+.profile-user .Follower-card h5{
+    color:#D8AF55;
+}
     .profile-user .Follower-card  .row .info h3{
         font-size: 16px;
    }
@@ -1033,6 +1037,9 @@ footer mark{
 
 background: #fff;
 border: 1px solid #D8AF55;
+}
+.profile-user .Follower-card .fa-check{
+    color:#D8AF55;
 }
 
   .loginPage{
