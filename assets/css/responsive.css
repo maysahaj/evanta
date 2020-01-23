@@ -126,6 +126,18 @@ ul.lists{
 .work-sec .card .row {
      margin-top:20px;
 }
+button.btn-confirm {
+    text-align: center;
+    background: #D8AF55;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    outline: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    width: 100%;
+}
 }
 @media (width:768px) {
 .select-style {
