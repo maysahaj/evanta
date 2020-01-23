@@ -1005,6 +1005,22 @@ footer mark{
         background: #fff;
         font-weight: bold;
     }
+    .profile-user .Follower-card{
+        padding: 20px;
+    }
+    .profile-user .Follower-card .badge {
+        display: inline-block;
+        padding: .75em 2em;
+        font-size: 100%;
+        font-weight: normal;
+        color:#D8AF55;
+    }
+    .profile-user .Follower-card .list-group-item img {
+        width: 100%;
+    }
+    .profile-user .Follower-card  .row {
+         padding:0px;
+    }
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
