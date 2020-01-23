@@ -1059,6 +1059,13 @@ border: 1px solid #D8AF55;
     line-height: 1.5;
     margin: 0 auto;
 }
+.profile-user .modal-body p {
+    margin: 0 auto;
+}
+.profile-user .modal-footer button.active{
+    background:#D8AF55;
+    color:#fff;
+}
 
   .loginPage{
       margin-top: 60px;
