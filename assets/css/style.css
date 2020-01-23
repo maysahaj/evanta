@@ -1105,6 +1105,14 @@ font-size: 20px;
 .box-form-tnfo .form-row{
    margin-top: 30px;
 }
+.profile-user .acc-set .card-header{
+    background: #fff;
+    color:#D8AF55;
+}
+.card-pass{
+    padding: 20px;
+
+}
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
