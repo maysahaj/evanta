@@ -90,23 +90,19 @@
                                 </div>
                             </div>
                         </div>
-                        <ul class="list-group list-group-flush"  class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            
-                            <li class="list-group-item" class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                            aria-controls="pills-profile" aria-selected="false"><a
-                              href=""><i class="fas fa-user pr-2"></i>About Me</a >
-                            </li>
-                            <li class="list-group-item" class="nav-link" id="pills-order-tab" data-toggle="pill" href="#pills-order" role="tab"
-                            aria-controls="pills-order" aria-selected="false"><a
-                              href=""><i class="fas fa-shopping-bag pr-2"></i>About Me</a >
-                            </li>
-    
-                        </ul>
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-user pr-2"></i>About me</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-shopping-bag pr-2"></i>My orders </a>
+                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-heart pr-2"></i>Favorite  Ads</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-user-friends pr-2"></i>Follower</a>
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-profileSet" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-wrench pr-2"></i>Profile Settings</a>
+
+                          </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 card-det">
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <div class="card">
                                 <ul class="list-group list-group-flush">
                                   <li class="list-group-item">
@@ -128,20 +124,22 @@
                                     </div>
                                   </li>
                                 </ul>
-                              </div>         
+                              </div>       
                         </div>
-                        <div class="tab-pane fade show order" id="pills-order" role="tabpane2" aria-labelledby="pills-order-tab">
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                             <div class="card">
                                 <h4><strong>My Orders</strong>
                                     <span class="badge">2 items</span></h4>
                             </div>
                         </div>
-                    </div> 
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">hhhh</div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">jjjkkl</div>
+                        <div class="tab-pane fade" id="v-pills-profileSet" role="tabpanel" aria-labelledby="v-pills-settings-tab">lllllllllkl</div>
+                      </div>
                 </div>
 
             </div>
         </div>
-
     </section>
 </main>
 <!-----------------------------footer section---------------------------------->
@@ -223,6 +221,7 @@
                 
                 </div>			
             </div>
+            
         </div>
     </section>
     <section class= "footer-ser">

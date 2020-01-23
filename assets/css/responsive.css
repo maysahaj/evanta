@@ -187,6 +187,9 @@ ul.lists{
         width:70%;
         margin:0 auto
     }
+    .Terms .row .card img{
+        width:100%;
+    }
     
    
 
@@ -206,5 +209,8 @@ ul.lists{
   .payment-d form{
     width:70%;
     margin:0 auto
+}
+.Terms .row .card img{
+    width:100%;
 }
 }
