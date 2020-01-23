@@ -947,50 +947,7 @@ footer mark{
     .info .fa-circle{
         color:#D8AF55;
     }
-    /*
-    .profile-user .card .list-group-flush a{
-        color:#000;
-        font-size: 18px;
-       
-    }
-    .list-group-item:hover{
-        background:#D8AF55;
-        color:#fff;
-     
-    }
-    .list-group-item a:hover{
-        text-decoration: none;
-
-    }
-  
-  
-    .profile-user .card .list-group-flush .active {
-        background:#D8AF55;
-        box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
-        border:0px;
-     
-    }
-    .card-det .list-group-item:hover{
-        background:transparent;
-        color:#000;
-    }
-    .card-det .card{
- 
-   height: 34rem;
-    }
-    .order .card{
-        padding: 30px;
-    }
-    .order .card h4 strong{
-    font-size: 20px;
-    color:#000;
-    }
-    .order .card h4 span{ 
-        font-size: 18px;
-        color:#D8AF55;
-        font-weight: normal;
-        }*/
-  /*login page*/
+    
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
