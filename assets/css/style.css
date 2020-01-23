@@ -933,8 +933,17 @@ footer mark{
         font-size: 20px;
     font-weight: bold;
     }
-    .profile-user .card h4{
+    .profile-user  .row .col-lg-8  .card h4{
+        font-size: 18px;
+        padding: 20px 20px;
+        font-weight: bold;
+        border-bottom: 1px solid rgb(226, 225, 223);
+ 
+    }
+    .profile-user  .row .col-lg-8 .card h4 .badge{
         font-size: 15px;
+        color:#D8AF55;
+        font-weight: normal;
  
     }
     .profile-user .card .row{
@@ -953,9 +962,15 @@ footer mark{
     .profile-user .row .col-lg-4 .card{
         margin-bottom: 30px;
     }
+    .profile-user .card .list-group-item img{
+         width:30px;
+    }
     .info{
         margin-left: -25px;
         margin-top: 5px;
+    }
+    .profile-user .row .card .info h4{
+        font-size: 15px;
     }
     .info .fa-circle{
         color:#D8AF55;
