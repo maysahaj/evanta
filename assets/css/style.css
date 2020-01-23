@@ -1024,6 +1024,12 @@ footer mark{
     .profile-user .Follower-card  .row .info h3{
         font-size: 16px;
    }
+   .profile-user .Follower-card  .list-group-item {
+    position: relative;
+    display: block;
+     padding: .35rem 1rem;
+}
+
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
