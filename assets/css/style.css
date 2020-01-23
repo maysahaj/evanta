@@ -1029,6 +1029,11 @@ footer mark{
     display: block;
      padding: .35rem 1rem;
 }
+.profile-user .Follower-card  .btn-outline{
+
+background: #fff;
+border: 1px solid #D8AF55;
+}
 
   .loginPage{
       margin-top: 60px;
