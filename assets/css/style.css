@@ -1079,7 +1079,7 @@ border: 1px solid #D8AF55;
 border-radius: 6px;}
 .file-upload .file-select .file-select-button{background:#E9C983;padding:0 10px;display:inline-block;height:40px;line-height:44px;}
 .file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;
-font-size: 18px;}
+font-size: 15px;}
 .file-upload.active .file-select{border-color:#3fa46a;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
 .file-upload.active .file-select .file-select-button{background:#3fa46a;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
 .file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
