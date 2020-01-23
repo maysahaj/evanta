@@ -1007,6 +1007,7 @@ footer mark{
     }
     .profile-user .Follower-card{
         padding: 20px;
+        margin-bottom: 30px;
     }
     .profile-user .Follower-card .badge {
         display: inline-block;
