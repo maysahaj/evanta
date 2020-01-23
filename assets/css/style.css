@@ -1001,6 +1001,10 @@ footer mark{
         height: auto;
         padding-bottom: 30px;
     }
+    .profile-user .favorite{
+        background: #fff;
+        font-weight: bold;
+    }
   .loginPage{
       margin-top: 60px;
       padding-bottom: 50px;  
