@@ -1606,6 +1606,7 @@ button.send:hover{
 .cart-check .table-total tr{
     border-top:1px solid rgb(180, 179, 177);
     color:#D8AF55;
+    font-weight: bold;
 }
 
 .payment-page{
