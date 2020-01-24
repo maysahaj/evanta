@@ -1514,61 +1514,27 @@ button.send:hover{
     font-size: 22px;
     
 }
-.table-dark {
+.cart-check .table{
     border-collapse: collapse;
     border-radius: 6px;
     overflow: hidden;
     color: #000;
     background-color: #ffffff;
 }
-.table-dark  thead tr {
-    background: #515C6F;
-    color: white;
+
+
+.cart-check .card .table img {
+    width: 100%;
+  
 }
-.table-dark thead th {
-    font-weight: 400;
-    text-align: center;
-}
-.table-dark td, .table-dark th, .table-dark thead th {
-    border-color: #ffffff;
-}.card-card {
-    width: 26rem;
-    max-height: 126px;
-}
-.card-card h1 {
- 
-    font-size: 19px;
-    color: #252526;
-}
-.card-card p {
-    text-align: right !important;
-    font-size: 13px;
-    color: #515C6F;
-    font-weight: 400;
-}
-.card-card a {
-    position: relative;
-    text-align: center;
-    font-weight: 300;
-    display: flex;
-    color: #FF6969;
-    text-decoration: unset;
-    justify-content: center;
-    padding-right: 2rem;
-    padding-top: 5px;
-}
-.card-card img {
-    width: 130px;
-    border-radius: 5px;
-}
-.card-card a span{
+.cart-check .card-card a span{
     padding-right: 6px;
 }
-span {cursor:pointer; }
-.number{
+.cart-check span {cursor:pointer; }
+.cart-check .number{
     display: flex;
 }
-.minus, .plus{
+.cart-check .minus,.cart-check .plus{
     width: 20px;
     display: flex;
     height: 34px;
@@ -1584,7 +1550,7 @@ span {cursor:pointer; }
     align-items: center;
 }
 
-.number input {
+.cart-check .number input {
     height: 40px;
     width: 40px;   
      text-align: center;
@@ -1595,10 +1561,7 @@ span {cursor:pointer; }
     border:1px solid #D8AF55;
     border-radius: 50%;
 }
-/**/
-.table td,table th{
-    color:#000;
-}
+
 
 
 .payment-page{
