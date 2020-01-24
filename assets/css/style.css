@@ -1580,6 +1580,15 @@ button.send:hover{
     margin-top:-3px;
 }
 
+.cart-check a.num2{
+    text-decoration: line-through;
+    font-weight: normal;
+}
+.cart-check a.num1{
+    color:#D8AF55;
+    font-weight: normal;
+}
+
 
 
 .payment-page{
