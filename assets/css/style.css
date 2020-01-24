@@ -1524,12 +1524,22 @@ button.send:hover{
 
 .cart-check .card {
     padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
+.cart-check .table td,.cart-check .table th {
+    border: 0px;
+    padding: 0.25rem;
+    vertical-align: top;
+    border-top:0px;
+}
 
 .cart-check .card .table img {
     width: 100%;
   
+}
+.cart-check .card .table td a span{
+    color:red;
 }
 .cart-check .card-card a span{
     padding-right: 6px;
