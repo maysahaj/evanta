@@ -1538,6 +1538,9 @@ button.send:hover{
     width: 100%;
   
 }
+.cart-check .card .table .row h5{
+    color:#D8AF55;
+}
 .cart-check .card .table td a span{
     color:red;
 }
@@ -1574,6 +1577,7 @@ button.send:hover{
     vertical-align: middle;
     border:1px solid #D8AF55;
     border-radius: 50%;
+    margin-top:-3px;
 }
 
 
