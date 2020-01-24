@@ -1584,16 +1584,25 @@ button.send:hover{
     text-decoration: line-through;
     font-weight: normal;
 }
+.cart-check a.num2:hover{
+    text-decoration: line-through;
+}
 .cart-check a.num1{
     color:#D8AF55;
     font-weight: normal;
 }
 .cart-check .table .row h2{
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 5px;
+    font-size: 15px;
+    padding-top: 2px;
 }
-
+.cart-check .clock span{
+    font-weight: normal;
+}
+.cart-check .clock span i{
+    color:rgb(116, 114, 113);
+    font-size: 30px;
+  
+}
 
 
 .payment-page{
