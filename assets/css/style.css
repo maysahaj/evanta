@@ -1603,7 +1603,10 @@ button.send:hover{
     font-size: 20px;
   
 }
-
+.cart-check .table-total tr{
+    border-top:1px solid rgb(180, 179, 177);
+    color:#D8AF55;
+}
 
 .payment-page{
     color:#000;
