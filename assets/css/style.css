@@ -1522,6 +1522,10 @@ button.send:hover{
     background-color: #ffffff;
 }
 
+.cart-check .card {
+    padding: 30px;
+}
+
 
 .cart-check .card .table img {
     width: 100%;
