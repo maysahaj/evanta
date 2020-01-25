@@ -1849,3 +1849,7 @@ width: 100%;
 .Terms .row .card h5{
     font-size: 16px;
 }
+.messages-page .row .card .card-header{
+    background: #D8AF55;
+    color:#fff;
+}
