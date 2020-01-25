@@ -1823,7 +1823,19 @@ width: 100%;
 .reset-pass .card{
     width:80%;
     margin: 0 auto;
+}
+.reset-pass .card h1{
+    font-weight: bold;
+    color:#D8AF55;
+    font-size: 25px;
+    padding-top: 30px;
     text-align: center;
+
+}
+.reset-pass .card p{
+    text-align: center;
+    font-size: 14px;
+
 }
 .Terms{
     margin-top:30px;
