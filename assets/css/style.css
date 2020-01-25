@@ -1849,7 +1849,21 @@ width: 100%;
 .Terms .row .card h5{
     font-size: 16px;
 }
+.messages-page{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
 .messages-page .row .card .card-header{
     background: #D8AF55;
     color:#fff;
+}
+.messages-page .row .card .card-header h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.messages-page .row .card .card-header a i{
+
+    font-size: 22px;
+    color:#fff;
+    padding-top: 10px;
 }
