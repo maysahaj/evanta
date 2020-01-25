@@ -1841,6 +1841,11 @@ width: 100%;
 .Terms .row .card span{
     color:#D8AF55;
 }
+.Terms .row .card .spantime{
+    font-weight: normal;
+    font-size: 13px;
+    color:#000;
+}
 .Terms .row .card h5{
     font-size: 16px;
 }
