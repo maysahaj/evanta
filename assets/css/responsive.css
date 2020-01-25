@@ -138,6 +138,18 @@ button.btn-confirm {
     font-weight: bold;
     width: 100%;
 }
+.reset-pass .card h1{
+    font-weight: bold;
+    color:#D8AF55;
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.reset-pass button.More-notif {
+     padding: 4px 10px;
+    }
+
 }
 @media (width:768px) {
 .select-style {
