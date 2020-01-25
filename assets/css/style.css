@@ -1874,3 +1874,6 @@ width: 100%;
     font-size: 14px;
 
 }
+.messages-page .row .card .row-message img{
+    width:100%;
+}
