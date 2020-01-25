@@ -1867,3 +1867,10 @@ width: 100%;
     color:#fff;
     padding-top: 10px;
 }
+.messages-page .row .card .row-message{
+    color:#000;
+}
+.messages-page .row .card .row-message h5{
+    font-size: 14px;
+
+}
