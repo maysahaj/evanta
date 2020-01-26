@@ -2321,4 +2321,9 @@ color:#D8AF55;
     .details .row .col-lg-8 .description a.not-detail{
         color:#D8AF55;
         text-decoration: underline;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .details .row .col-lg-8 .description .not-detail i{
+        font-size: 22px;
     }
