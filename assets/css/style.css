@@ -2329,6 +2329,7 @@ color:#D8AF55;
     }
     .card-rating{
         margin-top: 30px;
+        text-align: left;
     }
     .card-rating h3{
         font-size: 20px;
@@ -2348,4 +2349,8 @@ color:#D8AF55;
     .card-header .eval a:hover{
         color:#D8AF55;
     }
-  
+  .card-rating input{
+    background: rgba(0,0,0,0.03);
+    border: 0px;
+    height: 63px;
+  }
