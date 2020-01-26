@@ -2299,3 +2299,19 @@ color:#D8AF55;
         border:1px solid rgb(223, 221, 218);
         border-top:2px solid #D8AF55;
     }
+    .details video{
+        width:100%;
+    }
+    .details .description h1{
+        font-size:22px;
+   
+    }
+    .details .row .col-lg-8 .card{
+        padding: 20px 10px;
+    }
+    .details .nav a.active{
+        color:#D8AF55;
+    }
+    .details .nav a{
+        font-size: 15px;
+    }
