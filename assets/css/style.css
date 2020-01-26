@@ -2153,3 +2153,14 @@ button.btn-filter:hover{
     position: relative;
     margin: 0 auto;
 }
+.card-info-side  a.page-link{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.card-info-side .page-item:first-child .page-link ,.page-item:last-child .page-link {
+    
+    margin-left: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
