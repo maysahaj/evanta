@@ -2157,10 +2157,17 @@ button.btn-filter:hover{
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 50%;
+    border:1px solid rgb(173, 177, 177);
+    color:#646464;
 }
 .card-info-side .page-item:first-child .page-link ,.page-item:last-child .page-link {
     
     margin-left: 0;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
+}
+
+.card-info-side .page-item:last-child .page-link {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
