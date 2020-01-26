@@ -2340,3 +2340,12 @@ color:#D8AF55;
         border-bottom: 1px solid #fff; 
         text-align: left;
     }
+    .card-header .eval a{
+        padding-left: 7px;
+        font-size: 18px;
+        color: rgb(116, 114, 114);
+    }
+    .card-header .eval a:hover{
+        color:#D8AF55;
+    }
+  
