@@ -2295,5 +2295,7 @@ color:#D8AF55;
     }
     .details .nav-pills .nav-link.active,.details .nav-pills .show>.nav-link {
         color: #D8AF55;
-        background-color: #fff;
+        background: #f5f9f8;
+        border:1px solid rgb(223, 221, 218);
+        border-top:2px solid #D8AF55;
     }
