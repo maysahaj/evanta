@@ -2098,7 +2098,7 @@ margin-top: 3px;
     color:#000;
 
 }
-.wed-dre .row .col-lg-4 .card{
+.wed-dre .row .col-lg-3 .card{
     padding: 20px 15px;
     box-shadow: 0px 5px 10px 5px rgb(245, 244, 243);
 }
@@ -2106,10 +2106,10 @@ margin-top: 3px;
     float: right;
     color:#D8AF55;
 }
-.wed-dre .row .col-lg-4 .card form{
+.wed-dre .row .col-lg-3 .card form{
     margin-top:10px;
 }
-.wed-dre .row .col-lg-4 .card input{
+.wed-dre .row .col-lg-3 .card input{
     border:0px ;
     border-bottom: 1px solid rgb(199, 198, 196);
 }
