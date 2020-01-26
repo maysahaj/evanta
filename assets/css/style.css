@@ -2100,6 +2100,7 @@ margin-top: 3px;
 }
 .wed-dre .row .col-lg-4 .card{
     padding: 20px 15px;
+    box-shadow: 0px 5px 10px 5px rgb(245, 244, 243);
 }
 .wed-dre .fa-redo-alt{
     float: right;
@@ -2123,4 +2124,20 @@ margin-top: 3px;
     border-radius: 6px;
     position: relative;
     margin: 0 auto;
+}
+button.btn-filter{
+  
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    color:#fff;
+    outline: 0px;
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+button.btn-filter:hover{
+
+    color:#F3E7CD;
+
 }
