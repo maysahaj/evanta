@@ -2160,6 +2160,19 @@ button.btn-filter:hover{
     border:1px solid rgb(173, 177, 177);
     color:#646464;
 }
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    border-color: #fff;
+    background: #D8AF55;
+    color:#fff;
+}
+
+.card-info-side  a.page-link:hover{
+    background: #D8AF55;
+    color:#fff;
+}
 .card-info-side .page-item:first-child .page-link ,.page-item:last-child .page-link {
     
     margin-left: 0;
