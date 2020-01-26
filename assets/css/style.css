@@ -2184,3 +2184,31 @@ button.btn-filter:hover{
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
 }
+
+
+.ads .row .card span{
+    color:#D8AF55;
+}
+.ads .row .card .spantime{
+    font-weight: normal;
+    font-size: 13px;
+    color:#000;
+}
+.ads .row .card h5{
+    font-size: 16px;
+}
+.ads .row span{
+    font-weight: bold;
+    padding-right:8px;
+}
+.ads .row h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ads .row p{
+    color:rgb(26, 25, 25);
+    font-size: 16px;
+}
+.ads .card h5{
+    font-size: 16px;
+}
