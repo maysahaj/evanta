@@ -2277,3 +2277,11 @@ color:#D8AF55;
     ::-webkit-scrollbar-thumb:hover {
     background: #000; 
     }
+    .details {
+        text-align: center;
+
+    }
+    .details .nav-pills{
+        font-size: 20px;
+        color:#000;
+    }
