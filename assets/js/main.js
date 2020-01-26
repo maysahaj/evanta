@@ -55,7 +55,14 @@ $('#chooseFile').bind('change', function () {
       $("#noFile").text(filename.replace("C:\\fakepath\\", "")); 
     }
   });
-  
+
+  $(document).ready(function(){
+    $('.dropdown-submenu a.test').on("click", function(e){
+      $(this).next('ul').toggle();
+      e.stopPropagation();
+      e.preventDefault();
+    });
+  });
 
 
 
