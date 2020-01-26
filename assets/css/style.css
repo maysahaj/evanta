@@ -2229,17 +2229,14 @@ color:#D8AF55;
     box-shadow: 0px 2px 20px #5F22DF0C;
     padding: 20px;
     padding-top:30px;
+    background: #fff;
     
 }
 .rowApp .row{
     padding: 20px;
 }
-.box-app i{
-    color:#01BBD0;
-    background: #fff;
-    padding: 30px;
-    font-size: 35px;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+.box-app img{
+    width: 45px;
 
 }
 .box-app h3{
@@ -2249,14 +2246,10 @@ color:#D8AF55;
 .box-app p{
     font-size: 14px;
 }
-.box-app i:hover{
-    color:rgb(235, 235, 240);
-    background: #01BBD0;
-}
+
 .box-app:hover{
     box-shadow: 0px 5px 30px #5F22DF1A;
 }
 .box-app h3:hover{
-    font-size: 20px;
-    color: #01BBD0;
+    color:#D8AF55;
 }
