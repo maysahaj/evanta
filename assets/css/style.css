@@ -2198,8 +2198,9 @@ button.btn-filter:hover{
     font-size: 16px;
 }
 .ads .row span{
-    font-weight: bold;
+ 
     padding-right:8px;
+    color:#D8AF55;
 }
 .ads .row h3{
     font-weight: bold;
