@@ -2092,4 +2092,35 @@ ul.dropdown-menu{
 float: right;
 margin-top: 3px;
 }
+.wed-dre{
+    margin-top:30px;
+    margin-bottom: 30px;
+    color:#000;
 
+}
+.wed-dre .row .col-lg-4 .card{
+    padding: 20px 15px;
+}
+.wed-dre .fa-redo-alt{
+    float: right;
+    color:#D8AF55;
+}
+.wed-dre .row .col-lg-4 .card form{
+    margin-top:10px;
+}
+.wed-dre .row .col-lg-4 .card input{
+    border:0px ;
+    border-bottom: 1px solid rgb(199, 198, 196);
+}
+.wed-dre .select-style {
+    border: 1px solid #fff;
+    width: 100%;
+    height: 45px;
+    border:0px;
+    border-bottom: 1px solid #a3a4a5;
+    overflow: hidden;
+    background: #fff url(../img/icon/baseline-expand_more-24px.png) no-repeat 95% 60%;
+    border-radius: 6px;
+    position: relative;
+    margin: 0 auto;
+}
