@@ -2307,7 +2307,7 @@ color:#D8AF55;
    
     }
     .details .row .col-lg-8 .card{
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     .details .nav a.active{
         color:#D8AF55;
@@ -2326,4 +2326,7 @@ color:#D8AF55;
     }
     .details .row .col-lg-8 .description .not-detail i{
         font-size: 22px;
+    }
+    .card-rating{
+        margin-top: 30px;
     }
