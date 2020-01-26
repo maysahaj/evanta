@@ -2285,3 +2285,8 @@ color:#D8AF55;
         font-size: 20px;
         color:#000;
     }
+    .details .nav-pills li a{
+        font-size: 20px;
+        color:#000;
+        background: #fff;
+    }
