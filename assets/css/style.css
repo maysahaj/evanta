@@ -2318,3 +2318,7 @@ color:#D8AF55;
     .details .row .col-lg-8  .description p{
         font-size: 16px;
     }
+    .details .row .col-lg-8 .description a.not-detail{
+        color:#D8AF55;
+        text-decoration: underline;
+    }
