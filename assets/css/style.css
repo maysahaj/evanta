@@ -2141,3 +2141,11 @@ button.btn-filter:hover{
     color:#F3E7CD;
 
 }
+.card-info-side  .select-style {
+    border: 1px solid #a3a4a5;
+    overflow: hidden;
+    background: #fff url(../img/icon/baseline-expand_more-24px.png) no-repeat 100% 60%;
+    border-radius: 6px;
+    position: relative;
+    margin: 0 auto;
+}
