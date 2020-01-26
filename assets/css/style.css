@@ -2268,12 +2268,12 @@ color:#D8AF55;
     }
     /* Handle */
     ::-webkit-scrollbar-thumb {
-    background: #252526; 
+    background: #D8AF55; 
     border-radius: 15px !important;
     
     }
     
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background:#D8AF55; 
+    background: #000; 
     }
