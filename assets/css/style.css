@@ -967,8 +967,11 @@ footer mark{
     .profile-user .row .card .info h4{
         font-size: 15px;
     }
-    .info .fa-circle{
+     .info .active .fa-circle{
         color:#D8AF55;
+    }
+    .info .fa-circle{
+        color:rgb(182, 180, 178);
     }
     .profile-user .courseSection .Blog-Descriotion h3 {
         
@@ -2424,4 +2427,11 @@ button.submit-review:hover{
 }
 .card-cart .clearfix .img-cart img{
    width:35px;
+}
+.fa-star{
+    color:rgb(189, 187, 184);
+
+}
+.active .fa-star{
+    color:#D8AF55;
 }
