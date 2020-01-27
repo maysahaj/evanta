@@ -2393,3 +2393,11 @@ button.submit-review:hover{
     color:#fff;
     font-size: 20px;
 }
+.card .card-body  i{
+    font-size: 38px;
+    color:#D8AF55;
+}
+.card .card-body a{
+    font-size: 13px;
+
+}
