@@ -461,7 +461,7 @@ text-decoration: line-through;
     font-weight: normal;
 }
 .option-blog a {
-    font-size: 25px;
+    font-size: 22px;
     color:#D8AF55;
 }
 .courseSection  .Blog-Descriotion a.num2{
@@ -2388,3 +2388,4 @@ button.submit-review:hover{
         height: auto;
         padding-bottom: 30px;
     }
+    
