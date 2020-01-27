@@ -2388,3 +2388,8 @@ button.submit-review:hover{
         height: auto;
         border-radius: 10px;
     }
+.card-sell-info .card-header{
+    background: #D8AF55;
+    color:#fff;
+    font-size: 20px;
+}
