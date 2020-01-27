@@ -2373,3 +2373,8 @@ button.submit-review:hover{
     color: #856404;
     background-color: #f1ede5;
 }
+.card-related{
+    margin-top: 30px;
+    text-align: left;
+
+}
