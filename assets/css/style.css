@@ -2408,3 +2408,6 @@ button.submit-review:hover{
     color: rgb(223, 217, 217);
     content: ">";
 }
+.card-cart{
+    padding: 25px 15px;
+}
