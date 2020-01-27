@@ -2384,8 +2384,7 @@ button.submit-review:hover{
     font-size: 20px;
 }
 .card-related .courseSection .blog-box {
-        box-shadow: 0px 5px 30px 10px rgba(203, 203, 209, 0.15);
+        box-shadow: 0px 5px 5px 5px #f1f1f1;
         height: auto;
-        padding-bottom: 30px;
+        border-radius: 10px;
     }
-    
