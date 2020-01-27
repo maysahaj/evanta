@@ -2354,3 +2354,22 @@ color:#D8AF55;
     border: 0px;
     height: 63px;
   }
+  button.submit-review{
+    padding: 8px 30px;
+    text-align: center;
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    color:#fff;
+    outline: 0px;
+    
+
+}
+button.submit-review:hover{
+   color:#000;
+}
+.alert-warning {
+    color: #856404;
+    background-color: #f1ede5;
+}
