@@ -2306,7 +2306,7 @@ color:#D8AF55;
         font-size:22px;
    
     }
-    .details .row .col-lg-9 .card{
+    .details .row .col-lg-8 .card{
         padding: 20px 20px;
     }
     .details .nav a.active{
@@ -2315,16 +2315,16 @@ color:#D8AF55;
     .details .nav a{
         font-size: 15px;
     }
-    .details .row .col-lg-9  .description p{
+    .details .row .col-lg-8  .description p{
         font-size: 16px;
     }
-    .details .row .col-lg-9 .description a.not-detail{
+    .details .row .col-lg-8 .description a.not-detail{
         color:#D8AF55;
         text-decoration: underline;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .details .row .col-lg-9 .description .not-detail i{
+    .details .row .col-lg-8 .description .not-detail i{
         font-size: 22px;
     }
     .card-rating{
@@ -2398,13 +2398,13 @@ button.submit-review:hover{
     color:#D8AF55;
 }
 .card .card-body a{
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
     padding-right: .5rem;
-    color: #6c757d;
-    content: "<";
+    color: rgb(223, 217, 217);
+    content: ">";
 }
