@@ -2397,11 +2397,11 @@ button.submit-review:hover{
     color:#fff;
     font-size: 20px;
 }
-.card .card-body  i{
+.card-cal  .card-body  i{
     font-size: 38px;
     color:#D8AF55;
 }
-.card .card-body a{
+.card-cal .card-body a{
     font-size: 15px;
 
 }
@@ -2454,5 +2454,22 @@ button.submit-review:hover{
 .details .flex-column a i{
     font-size: 16px;
     color:rgb(134, 135, 136);
+
+}
+a.btn-book{
+  
+    background: #D8AF55;
+    border:none;
+    border-radius: 6px;
+    color:#fff;
+    outline: 0px;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-weight: bold;
+
+}
+a.btn-book:hover{
+
+    color:#F3E7CD;
 
 }
