@@ -2473,7 +2473,12 @@ a.btn-book:hover{
     color:#F3E7CD;
 
 }
-.details .ch-f .nav-link, .details .ch-f .nav-pills .show>.nav-link {
+.details .ch-f .nav-link, .details .ch-f .show>.nav-link {
+    color: #D8AF55;
+    background: #fff;
+    border:1px solid #D8AF55;
+}
+.details .ch-f  .nav-link.active, .details .ch-f  .show>.nav-link {
     color: #fff;
     background: #D8AF55;
 }
