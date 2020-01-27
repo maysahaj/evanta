@@ -2437,6 +2437,9 @@ button.submit-review:hover{
     color:rgb(189, 187, 184);
 
 }
+.sm-cont a{
+    padding-left: 10px;
+}
 
 .active .fa-star{
     color:#D8AF55;
@@ -2444,5 +2447,8 @@ button.submit-review:hover{
 .card-cart h3{
     font-size: 17px;
 
+}
+.details .flex-column a {
+    font-size: 13px;
 }
 
