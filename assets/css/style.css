@@ -2415,10 +2415,13 @@ button.submit-review:hover{
     font-weight: bold;
     font-size: 16px;
 }
-.card-cart .clearfix img{
+.card-cart .clearfix .img-cart{
  
     background: rgb(224, 222, 222);
     border-radius: 50%;
-    padding: 5px;
+    padding: 8px;
     
+}
+.card-cart .clearfix .img-cart img{
+   width:35px;
 }
