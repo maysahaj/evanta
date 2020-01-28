@@ -237,4 +237,8 @@ button.btn-confirm {
 .Terms .row .card img{
     width:100%;
 }
+.card-user .active .fa-star {
+    color: #D8AF55;
+    font-size: 11px;
+}
 }
