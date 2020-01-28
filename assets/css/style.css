@@ -2515,6 +2515,10 @@ a.btn-book:hover{
     color: #D8AF55;
     font-size: 14px;
 }
+.card-user .fa-star {
+
+    font-size: 14px;
+}
 .progress {
 
     background-color:#E9C983;
