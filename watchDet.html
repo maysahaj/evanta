@@ -18,6 +18,7 @@
 
 </head>
 <body>
+  
 <main>
 
     <section id= "navbar-2">
@@ -112,259 +113,752 @@
           <div class="col-lg-8 col-md-8">
             <ul class="nav nav-pills row">
               <li class="nav-item col-lg-4 col-md-4">
-                <a class="nav-link active" href="#"><i class="fas fa-play-circle pr-1"></i>Video</a>
+                <a class="nav-link active"id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-play-circle pr-1"></i>Video</a>
               </li>
               
               <li class="nav-item col-lg-4 col-md-4">
-                <a class="nav-link " href="#"><i class="fas fa-image pr-1"></i>Gallery</a>
+                <a class="nav-link "  id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-image pr-1"></i>Gallery</a>
               </li>
               <li class="nav-item col-lg-4 col-md-4">
-                <a class="nav-link" href="#"><i class="fas fa-tty pr-1"></i>Offers</a>
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-tty pr-1"></i>Offers</a>
               </li>
              
             </ul>
-            <video controls="" class = "mt-3">
-              <source src="movie.mp4" type="video/mp4">
-              <source src="movie.ogg" type="video/ogg">
-              Your browser does not support the video tag.
-            </video>
-            <div class=" card description text-left">
-              <h1>Royal luxury engagement dress
-              </h1>
-              <div class="row">
-                <div class="col-lg-4 col-md-4">
-                  <nav class="nav">
-                    <a>City:</a>
-                    <a class ="active"> Palestine /Gaza Strip</a>
-                  </nav>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                  <nav class="nav">
-                    <a>Type:</a>
-                    <a>For Sale</a>
-                  </nav>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                  <nav class="nav">
-                    <a>Catagorie:</a>
-                    <a>Wedding Dresses</a>
-                  </nav>
-                </div>
-              </div>
-              <p class = "mt-3">Rimmel Scandaleyes Waterproof Gel Eyeliner, Black, 0.085 oz 
-              </p>
-              <p><span>About the product:</span>Up to 24 hours of rich, intense color that doesn't flake, smudge, smear or run
-               <br> Easy to apply, glides easily
-               <br>  Professional brush for complete control to draw the lines you want</p>
-               <a class = "not-detail text-right" href=""><i class="fas fa-bell pr-1"></i>Notify me if price drops 
-              </a>
-
-            </div>
-            <div class=" card-rating">
-              <div class="card">
-                <div class="row text-left">
-                  <div class="col-lg-10 col-md-10 col">
-                    <h3>Write A Review</h3>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <video controls="" class = "mt-3">
+                  <source src="movie.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                <div class=" card description text-left">
+                  <h1>Royal luxury engagement dress
+                  </h1>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>City:</a>
+                        <a class ="active"> Palestine /Gaza Strip</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Type:</a>
+                        <a>For Sale</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Catagorie:</a>
+                        <a>Wedding Dresses</a>
+                      </nav>
+                    </div>
                   </div>
-                  <div class="col-lg-2 col-md-2 col">
-                    <select class="custom-select">
-                      <option selected>lastest</option>
-                      <option value="1">newest</option>
-                    </select>
-                    
+                  <p class = "mt-3">Rimmel Scandaleyes Waterproof Gel Eyeliner, Black, 0.085 oz 
+                  </p>
+                  <p><span>About the product:</span>Up to 24 hours of rich, intense color that doesn't flake, smudge, smear or run
+                   <br> Easy to apply, glides easily
+                   <br>  Professional brush for complete control to draw the lines you want</p>
+                   <a class = "not-detail text-right" href=""><i class="fas fa-bell pr-1"></i>Notify me if price drops 
+                  </a>
+    
+                </div>
+                <div class=" card-rating">
+                  <div class="card">
+                    <div class="row text-left">
+                      <div class="col-lg-10 col-md-10 col">
+                        <h3>Write A Review</h3>
+                      </div>
+                      <div class="col-lg-2 col-md-2 col">
+                        <select class="custom-select">
+                          <option selected>lastest</option>
+                          <option value="1">newest</option>
+                        </select>
+                        
+                      </div>
+                    </div>
+                    <div class="card-header mt-4">
+                   
+                      <nav class="nav eval">
+                        <a>Your Rating:</a>
+                        <a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                        </a>
+                      </nav>
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Title</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example: It was an awesome experience to be there
+                        ">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Review</label>
+                        <input type="text" class="form-control"  placeholder="Enter your review 
+                        ">
+                      </div>
+                      <div class="alert alert-warning" role="alert">
+                        Your review recommended to be at least 140 characters long 
+                      </div>
+                      <button type="button" class="btn submit-review">Submit Review 
+                      </button>
+                    </form>
+    
                   </div>
                 </div>
-                <div class="card-header mt-4">
-               
-                  <nav class="nav eval">
-                    <a>Your Rating:</a>
-                    <a>
-                      <a href=""> <i class="far fa-star"></i></a>
-                      <a href=""> <i class="far fa-star"></i></a>
-                      <a href=""> <i class="far fa-star"></i></a>
-                      <a href=""> <i class="far fa-star"></i></a>
-                      <a href=""> <i class="far fa-star"></i></a>
-                    </a>
-                  </nav>
-                </div>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Title</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example: It was an awesome experience to be there
-                    ">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Review</label>
-                    <input type="text" class="form-control"  placeholder="Enter your review 
-                    ">
-                  </div>
-                  <div class="alert alert-warning" role="alert">
-                    Your review recommended to be at least 140 characters long 
-                  </div>
-                  <button type="button" class="btn submit-review">Submit Review 
-                  </button>
-                </form>
-
-              </div>
-            </div>
-            <div class="card-related">
-              <div class="card text-left">
-                <h3>Related Ads </h3>
-                <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                      <div class=" courseSection">
-                          <div class="blog-box mt-3">
-                              <div class="blog-img">
-                                  <img class="img-fluid" src="assets/img/icon/bce19511m_light_pearl_natural_front_1.png" alt="">
-                              </div>
-                              <div class="blog-content">
-                                  <div class="title-blog">
-                                      <div class="Blog-Descriotion">
-                                  
-                                          <div class="origin clearfix">
-                                              <div class="float-right">
-                                                  <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
-                                              </div>
-                                              <div class="origin float-left">
-                                                  Wedding Rings
-                                              </div>
-                                          </div>
+                <div class="card-related">
+                  <div class="card text-left">
+                    <h3>Related Ads </h3>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/bce19511m_light_pearl_natural_front_1.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
                                       
-                                          <a href="">
-                                              <h3>Short Engagement Dress...</h3>
-                                          </a>
-                                          <nav class="nav pb-3">
-                                              <a class="  num2">$139,00,00</a>
-                                              <a class=" num1">$149,00,00</a>
-                                          </nav>
-                                          <div class="end-box clearfix">
-                                            <div class="float-left">
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
                                               <nav class="nav pb-3">
-                                                  <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
-                                                <a class="nav-link">The offer ends in:
-                                                  <br><red class="time">10 Days 04:01:55</red>
-                                                  
-                                                </a>
-                                                
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
                                               </nav>
-                                              
-                                            </div>
-                                            <div class=" float-right option-blog text-right mt-2">
-                                              <a href="#"><i class="far fa-heart pt-2"></i></a>
-                                            </div>
-                                            
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
                                           </div>
-                                      </div>
-                                  </div>							
+                                      </div>							
+                                  </div>
                               </div>
                           </div>
+    
                       </div>
-
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                      <div class=" courseSection">
-                          <div class="blog-box mt-3">
-                              <div class="blog-img">
-                                  <img class="img-fluid" src="assets/img/icon/download.png" alt="">
-                              </div>
-                              <div class="blog-content">
-                                  <div class="title-blog">
-                                      <div class="Blog-Descriotion">
-                                  
-                                          <div class="origin clearfix">
-                                              <div class="float-right">
-                                                  <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
-                                              </div>
-                                              <div class="origin float-left">
-                                                  Wedding Rings
-                                              </div>
-                                          </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/download.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
                                       
-                                          <a href="">
-                                              <h3>Short Engagement Dress...</h3>
-                                          </a>
-                                          <nav class="nav pb-3">
-                                              <a class="  num2">$139,00,00</a>
-                                              <a class=" num1">$149,00,00</a>
-                                          </nav>
-                                          <div class="end-box clearfix">
-                                            <div class="float-left">
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
                                               <nav class="nav pb-3">
-                                                  <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
-                                                <a class="nav-link">The offer ends in:
-                                                  <br><red class="time">10 Days 04:01:55</red>
-                                                  
-                                                </a>
-                                                
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
                                               </nav>
-                                              
-                                            </div>
-                                            <div class=" float-right option-blog text-right mt-2">
-                                              <a href="#"><i class="far fa-heart pt-2"></i></a>
-                                            </div>
-                                            
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
                                           </div>
-                                      </div>
-                                  </div>							
+                                      </div>							
+                                  </div>
                               </div>
                           </div>
+    
                       </div>
-
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                      <div class=" courseSection">
-                          <div class="blog-box mt-3">
-                              <div class="blog-img">
-                                  <img class="img-fluid" src="assets/img/icon/rBVaI1nV0TKAXLJPAAKOFxHHbiY849.png" alt="">
-                              </div>
-                              <div class="blog-content">
-                                  <div class="title-blog">
-                                      <div class="Blog-Descriotion">
-                                  
-                                          <div class="origin clearfix">
-                                              <div class="float-right">
-                                                  <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
-                                              </div>
-                                              <div class="origin float-left">
-                                                  Wedding Rings
-                                              </div>
-                                          </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/rBVaI1nV0TKAXLJPAAKOFxHHbiY849.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
                                       
-                                          <a href="">
-                                              <h3>Short Engagement Dress...</h3>
-                                          </a>
-                                          <nav class="nav pb-3">
-                                              <a class="  num2">$139,00,00</a>
-                                              <a class=" num1">$149,00,00</a>
-                                          </nav>
-                                          <div class="end-box clearfix">
-                                            <div class="float-left">
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
                                               <nav class="nav pb-3">
-                                                  <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
-                                                <a class="nav-link">The offer ends in:
-                                                  <br><red class="time">10 Days 04:01:55</red>
-                                                  
-                                                </a>
-                                                
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
                                               </nav>
-                                              
-                                            </div>
-                                            <div class=" float-right option-blog text-right mt-2">
-                                              <a href="#"><i class="far fa-heart pt-2"></i></a>
-                                            </div>
-                                            
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
                                           </div>
-                                      </div>
-                                  </div>							
+                                      </div>							
+                                  </div>
                               </div>
                           </div>
+    
                       </div>
-
                   </div>
+      
+                  </div>
+                </div>
               </div>
-  
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <video controls="" class = "mt-3">
+                  <source src="movie.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                <div class=" card description text-left">
+                  <h1>Royal luxury engagement dress
+                  </h1>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>City:</a>
+                        <a class ="active"> Palestine /Gaza Strip</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Type:</a>
+                        <a>For Sale</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Catagorie:</a>
+                        <a>Wedding Dresses</a>
+                      </nav>
+                    </div>
+                  </div>
+                  <p class = "mt-3">Rimmel Scandaleyes Waterproof Gel Eyeliner, Black, 0.085 oz 
+                  </p>
+                  <p><span>About the product:</span>Up to 24 hours of rich, intense color that doesn't flake, smudge, smear or run
+                   <br> Easy to apply, glides easily
+                   <br>  Professional brush for complete control to draw the lines you want</p>
+                   <a class = "not-detail text-right" href=""><i class="fas fa-bell pr-1"></i>Notify me if price drops 
+                  </a>
+    
+                </div>
+                <div class=" card-rating">
+                  <div class="card">
+                    <div class="row text-left">
+                      <div class="col-lg-10 col-md-10 col">
+                        <h3>Write A Review</h3>
+                      </div>
+                      <div class="col-lg-2 col-md-2 col">
+                        <select class="custom-select">
+                          <option selected>lastest</option>
+                          <option value="1">newest</option>
+                        </select>
+                        
+                      </div>
+                    </div>
+                    <div class="card-header mt-4">
+                   
+                      <nav class="nav eval">
+                        <a>Your Rating:</a>
+                        <a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                        </a>
+                      </nav>
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Title</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example: It was an awesome experience to be there
+                        ">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Review</label>
+                        <input type="text" class="form-control"  placeholder="Enter your review 
+                        ">
+                      </div>
+                      <div class="alert alert-warning" role="alert">
+                        Your review recommended to be at least 140 characters long 
+                      </div>
+                      <button type="button" class="btn submit-review">Submit Review 
+                      </button>
+                    </form>
+    
+                  </div>
+                </div>
+                <div class="card-related">
+                  <div class="card text-left">
+                    <h3>Related Ads </h3>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/bce19511m_light_pearl_natural_front_1.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/download.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/rBVaI1nV0TKAXLJPAAKOFxHHbiY849.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                  </div>
+      
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <video controls="" class = "mt-3">
+                  <source src="movie.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                <div class=" card description text-left">
+                  <h1>Royal luxury engagement dress
+                  </h1>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>City:</a>
+                        <a class ="active"> Palestine /Gaza Strip</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Type:</a>
+                        <a>For Sale</a>
+                      </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <nav class="nav">
+                        <a>Catagorie:</a>
+                        <a>Wedding Dresses</a>
+                      </nav>
+                    </div>
+                  </div>
+                  <p class = "mt-3">Rimmel Scandaleyes Waterproof Gel Eyeliner, Black, 0.085 oz 
+                  </p>
+                  <p><span>About the product:</span>Up to 24 hours of rich, intense color that doesn't flake, smudge, smear or run
+                   <br> Easy to apply, glides easily
+                   <br>  Professional brush for complete control to draw the lines you want</p>
+                   <a class = "not-detail text-right" href=""><i class="fas fa-bell pr-1"></i>Notify me if price drops 
+                  </a>
+    
+                </div>
+                <div class=" card-rating">
+                  <div class="card">
+                    <div class="row text-left">
+                      <div class="col-lg-10 col-md-10 col">
+                        <h3>Write A Review</h3>
+                      </div>
+                      <div class="col-lg-2 col-md-2 col">
+                        <select class="custom-select">
+                          <option selected>lastest</option>
+                          <option value="1">newest</option>
+                        </select>
+                        
+                      </div>
+                    </div>
+                    <div class="card-header mt-4">
+                   
+                      <nav class="nav eval">
+                        <a>Your Rating:</a>
+                        <a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                          <a href=""> <i class="far fa-star"></i></a>
+                        </a>
+                      </nav>
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Title</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example: It was an awesome experience to be there
+                        ">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Review</label>
+                        <input type="text" class="form-control"  placeholder="Enter your review 
+                        ">
+                      </div>
+                      <div class="alert alert-warning" role="alert">
+                        Your review recommended to be at least 140 characters long 
+                      </div>
+                      <button type="button" class="btn submit-review">Submit Review 
+                      </button>
+                    </form>
+    
+                  </div>
+                </div>
+                <div class="card-related">
+                  <div class="card text-left">
+                    <h3>Related Ads </h3>
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/bce19511m_light_pearl_natural_front_1.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/download.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                          <div class=" courseSection">
+                              <div class="blog-box mt-3">
+                                  <div class="blog-img">
+                                      <img class="img-fluid" src="assets/img/icon/rBVaI1nV0TKAXLJPAAKOFxHHbiY849.png" alt="">
+                                  </div>
+                                  <div class="blog-content">
+                                      <div class="title-blog">
+                                          <div class="Blog-Descriotion">
+                                      
+                                              <div class="origin clearfix">
+                                                  <div class="float-right">
+                                                      <i class="fas fa-map-marker-alt pl-2"></i>Japalia  
+                                                  </div>
+                                                  <div class="origin float-left">
+                                                      Wedding Rings
+                                                  </div>
+                                              </div>
+                                          
+                                              <a href="">
+                                                  <h3>Short Engagement Dress...</h3>
+                                              </a>
+                                              <nav class="nav pb-3">
+                                                  <a class="  num2">$139,00,00</a>
+                                                  <a class=" num1">$149,00,00</a>
+                                              </nav>
+                                              <div class="end-box clearfix">
+                                                <div class="float-left">
+                                                  <nav class="nav pb-3">
+                                                      <a class="nav-link"><img src="assets/img/icon/baseline-alarm-24px.png" alt=""></a>
+                                                    <a class="nav-link">The offer ends in:
+                                                      <br><red class="time">10 Days 04:01:55</red>
+                                                      
+                                                    </a>
+                                                    
+                                                  </nav>
+                                                  
+                                                </div>
+                                                <div class=" float-right option-blog text-right mt-2">
+                                                  <a href="#"><i class="far fa-heart pt-2"></i></a>
+                                                </div>
+                                                
+                                              </div>
+                                          </div>
+                                      </div>							
+                                  </div>
+                              </div>
+                          </div>
+    
+                      </div>
+                  </div>
+      
+                  </div>
+                </div>
               </div>
             </div>
+          
           </div>
           <div class="col-lg-4 col-md-4">
             <div class="card card-sell-info">
@@ -505,6 +999,25 @@
                             <input type="checkbox" checked="checked">
                             <span class="checkmark"></span>
                           </label>
+                          <label class="ch-rep">This Ad Is A Duplicate
+                            <input type="checkbox" >
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="ch-rep">This Ad Is In The Wrong Category
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="ch-rep">The Ad Goes Against Posting Rules
+                            <input type="checkbox" >
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="ch-rep">Other
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                          </label>
+                          <textarea name="" id=""></textarea>
+                          <button type="button" class="btn btn-block submit-review">Report 
+                          </button>
                        
 
                         </div>
