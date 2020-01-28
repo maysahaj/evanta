@@ -2492,4 +2492,9 @@ a.btn-book:hover{
 }
 .share h3{
     font-size: 15px;
+    padding-top: 10px;
+}
+.share a i{
+    font-size: 25px;
+    color:rgb(192, 193, 194);
 }
