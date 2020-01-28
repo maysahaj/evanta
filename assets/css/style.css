@@ -2666,3 +2666,7 @@ a.btn-book:hover{
     background: #edf0ef;
     padding: 20px 40px;
 }
+.add-img .row-button{
+
+margin: 0 auto;
+}
