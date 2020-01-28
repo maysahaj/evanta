@@ -2539,3 +2539,15 @@ a.btn-book:hover{
         padding: 2rem 0;
         PADDING-INLINE-START: 5PX;
     }
+ .sharing-link .contact a i {
+    font-size: 20px;
+    border: 1px solid #D8AF55;
+    padding: 18px 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 0px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -5px;
+    color: #D8AF55;
+}
