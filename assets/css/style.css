@@ -2637,4 +2637,17 @@ a.btn-book:hover{
     padding: 15px;
     overflow: hidden;
 }
+.offer video{
+    position: relative;;;
+}
+.offer .discount{
+    position: absolute;;
+    background:#D8AF55;
+    left: 15px;
+    top:63px;
+    padding: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    color:#fff;
+}
 
