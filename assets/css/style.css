@@ -2482,3 +2482,14 @@ a.btn-book:hover{
     color: #fff;
     background: #D8AF55;
 }
+.card-ad-Ac{
+    margin-top:20px;
+    padding: 20px;;
+}
+.share h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.share h3{
+    font-size: 15px;
+}
