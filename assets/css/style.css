@@ -2498,3 +2498,16 @@ a.btn-book:hover{
     font-size: 25px;
     color:rgb(192, 193, 194);
 }
+.heart-ad{
+    float: right;
+    color:#D8AF55;
+
+}
+.card-user{
+    margin-top:20px;
+    padding: 20px;;
+}
+.card-user h2{
+    font-size: 18px;
+    font-weight: bold;
+}
