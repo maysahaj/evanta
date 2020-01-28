@@ -2661,3 +2661,8 @@ a.btn-book:hover{
     font-weight: bold;
     font-size: 25px;
 }
+.add-img .card{
+    margin:30px;
+    background: rgb(180, 179, 179);
+    padding: 20px 40px;
+}
