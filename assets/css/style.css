@@ -2650,4 +2650,13 @@ a.btn-book:hover{
     border-bottom-right-radius:5px;
     color:#fff;
 }
-
+.add-post{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.add-post h1{
+    color:#D8AF55;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
