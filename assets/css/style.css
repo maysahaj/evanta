@@ -2524,3 +2524,14 @@ a.btn-book:hover{
 .progress {
         border-radius:0px;
     }
+.dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 15rem;
+        padding: 2rem 0;
+        PADDING-INLINE-START: 5PX;
+    }
