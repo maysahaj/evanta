@@ -2670,3 +2670,7 @@ a.btn-book:hover{
 
 margin: 0 auto;
 }
+.add-post .form-check {
+    margin:0 auto;
+    display: flex;
+}
