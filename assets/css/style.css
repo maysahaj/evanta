@@ -2810,7 +2810,7 @@ margin: 0 auto;
     display: none;}
     .settings  .notification a{
         color:#D8AF55;
-        font-size: 16px;
+        font-size: 12px;
     }
     .settings  .notification a:hover{
         text-decoration: none;
@@ -2821,10 +2821,18 @@ margin: 0 auto;
         padding-right:15px;
     }
     .settings .notification a i{
-      font-size: 20px;
+      font-size: 16px;
   
     }
-   
+   .nt{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 5px;
+
+   }
+   .settings .fa-bell{
+       color:#000;
+   }
  
 
 
