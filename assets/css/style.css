@@ -2763,7 +2763,7 @@ margin: 0 auto;
 }
 .messages-page .list-group-item.active {
     z-index: 2;
-    color: #fff;
-   background-color: #d9dce0; 
+    color: #000;
+    background-color: #f5f9f8;
    border-color:transparent; 
 }
