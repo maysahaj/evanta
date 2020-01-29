@@ -2690,6 +2690,7 @@ margin: 0 auto;
     border:0px;
     border-bottom:1px solid #cfcfcf;
     outline: 0px;
+    font-size: 14px;
   
 }
 .add-post input:focus {
