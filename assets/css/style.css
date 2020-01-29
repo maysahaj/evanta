@@ -2735,3 +2735,6 @@ margin: 0 auto;
     font-size: 20px;
 
 }
+.messages-page .col-lg-5 .card .row img{
+    width: 100%;
+}
