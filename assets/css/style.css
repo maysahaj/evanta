@@ -2738,3 +2738,27 @@ margin: 0 auto;
 .messages-page .col-lg-5 .card .row img{
     width: 100%;
 }
+.messages-page .col-lg-5 .card .row h5{
+    font-size: 18px;
+}
+.messages-page .col-lg-5 .card .row a p{
+    font-size: 15px;
+    font-weight: bold;
+    color:#000;
+}
+.messages-page .col-lg-5 .card .row .badge-light{
+    float:right;
+    padding: 6px 8px;
+    font-size: 15px;
+    background: #D8AF55;
+    color:#fff;
+
+
+}
+.det-mass{
+    margin-left: -15px;
+}
+.det-mass span{
+    font-size: 15px;
+    color:#cac7c7;
+}
