@@ -2690,7 +2690,17 @@ margin: 0 auto;
     border:0px;
     border-bottom:1px solid #cfcfcf;
     outline: 0px;
+  
 }
 .add-post input:focus {
-	outline: none;
+    outline: none;
+    box-shadow: 0px !important;
+}
+.add-post h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.add-post textarea{
+    height: 10rem;
+    overflow: hidden;
 }
