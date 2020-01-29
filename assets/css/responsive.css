@@ -149,6 +149,14 @@ button.btn-confirm {
 .reset-pass button.More-notif {
      padding: 4px 10px;
     }
+    .settings .dropdown-menu {
+        left: 0px; 
+        min-width: 20rem;
+    }
+    .settings .not-details .info-Not {
+        margin-top: 15px;
+        margin-left: -103px;
+    }
 
 }
 @media (width:768px) {
@@ -213,6 +221,14 @@ button.btn-confirm {
     }
     .Terms .row .card img{
         width:100%;
+    }
+    .settings .dropdown-menu {
+        left: 0px; 
+        min-width: 20rem;
+    }
+    .settings .not-details .info-Not {
+        margin-top: 15px;
+        
     }
     
    

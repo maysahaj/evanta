@@ -2833,6 +2833,54 @@ margin: 0 auto;
    .settings .fa-bell{
        color:#000;
    }
+   .settings .not-details{
+    box-shadow: 0px 5px 30px 10px rgba(151, 151, 155, 0.15);
+    padding-top:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+  }
+  .settings .not-details img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  }
+  .settings .not-details .row{
+      margin-bottom: 20px;
+  }
+  .settings  .not-details h6{
+      text-align: right;
+      font-size: 12px;
+  }
+  .settings .not-details .info-Not{
+    margin-top: 15px;
+    margin-left: -20px;
+
+}
+.settings .not-details .info-Not a{
+    color:#000;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.settings .dropdown-menu {
+  left:-100px;
+    min-width: 23rem;}
+
+.settings .not-details .info-Not p{
+    color:#000;
+    font-size: 12px;
+
+}
+.settings .not-box .not-details .info-Not a:hover{
+    color:#D8AF55;
+    text-decoration:none;
+
+}
+.settings .not-box span{
+    font-size: 15px;
+}
  
 
 
