@@ -2806,6 +2806,8 @@ margin: 0 auto;
     padding: 17px 30px;
     padding-bottom: 50px;
 }
+.settings .dropdown-toggle::after {
+    display: none;}
 
 
  
