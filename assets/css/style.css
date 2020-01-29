@@ -230,7 +230,7 @@ img.img-index{
 .buttonSection span img{
     position: absolute;
     top: 125px;
-    right: 60px;
+    right: 70px;
     opacity: .7;
 }
 .catagoriesSection{
@@ -2552,8 +2552,7 @@ a.btn-book:hover{
         padding-inline-end: 10PX;
         border-right: 10px solid #D8AF55;
         border-top: 4px solid #D8AF55;
-        
-
+   
      
     }
  
@@ -2881,7 +2880,12 @@ margin: 0 auto;
 .settings .not-box span{
     font-size: 15px;
 }
-
+a.see-all{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+}
  
 
 
