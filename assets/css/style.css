@@ -2536,9 +2536,14 @@ a.btn-book:hover{
         display: none;
         float: left;
         min-width: 15rem;
-        padding: 2rem 0;
-        PADDING-INLINE-START: 5PX;
+        padding: .5rem 0;
+        PADDING-INLINE-START: 2PX;
     }
+    .dropdown-menu li{
+    border-bottom: 1px solid #C9C9C9;
+    
+    padding: 10px;
+}
  .sharing-link .contact a i {
     font-size: 20px;
     border: 1px solid #D8AF55;
