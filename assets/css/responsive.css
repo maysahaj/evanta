@@ -157,6 +157,10 @@ button.btn-confirm {
         margin-top: 15px;
         margin-left: -103px;
     }
+    a.navbar-brand{
+        display: inline;
+        width:30px;
+    }
 
 }
 @media (width:768px) {
@@ -230,6 +234,7 @@ button.btn-confirm {
         margin-top: 15px;
         
     }
+   
     
    
 

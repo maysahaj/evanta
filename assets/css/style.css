@@ -2886,7 +2886,24 @@ a.see-all{
     font-weight: bold;
     display: flex;
 }
- 
+a.More-notif{
+font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+  
+    border:none;
+    border-radius: 6px;
+    color:#D8AF55;
+    outline: 0px;
+    margin:0 auto;
+    display: flex;
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+a.navbar-brand{
+    display: none;
+}
 
 
  
