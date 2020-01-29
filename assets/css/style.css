@@ -1976,12 +1976,12 @@ img{ max-width:100%;}
   width: 92%;
  }
  .received_withd_msg p {
-  background: #ebebeb none repeat scroll 0 0;
+  background:rgb(241, 227, 195) none repeat scroll 0 0;
   border-radius: 3px;
   color: #646464;
   font-size: 14px;
   margin: 0;
-  padding: 5px 10px 5px 12px;
+  padding:15px 20px;
   width: 100%;
 }
 .time_date {
@@ -1999,12 +1999,13 @@ img{ max-width:100%;}
 }
 
  .sent_msg p {
-  background: #05728f none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   border-radius: 3px;
   font-size: 14px;
   margin: 0; color:#fff;
   padding: 5px 10px 5px 12px;
   width:100%;
+  color:#000;
 }
 .outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
 .sent_msg {
@@ -2016,27 +2017,36 @@ img{ max-width:100%;}
   border: medium none;
   color: #4c4c4c;
   font-size: 15px;
-  min-height: 48px;
+  min-height: 60px;
   width: 100%;
+  position: relative;
+  padding-left: 40px;
+ 
 }
 
 .type_msg {border-top: 1px solid #c4c4c4;position: relative;}
 .msg_send_btn {
-  background: #05728f none repeat scroll 0 0;
   border: medium none;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
   font-size: 17px;
-  height: 33px;
+  height: 43px;
   position: absolute;
-  right: 0;
+  right: 5px;
   top: 11px;
-  width: 33px;
+  width: 43px;
+  background: transparent;
+  border: medium none;
+}
+.msg_send_btn:hover{
+    border: medium none;
+outline: 0px;
+
 }
 .messaging { padding: 0 0 50px 0;}
 .msg_history {
-  height: 516px;
+  height: auto;
   overflow-y: auto;
 }
 
@@ -2767,4 +2777,15 @@ margin: 0 auto;
     color: #000;
     background-color: #f5f9f8;
    border-color:transparent; 
+}
+.card-mass .fa-circle{
+    color:rgb(5, 170, 5);
+
+}
+.fa-grin-alt{
+    position: absolute;
+    top:20px;
+    left: 10px;
+    color:#a3a4a5;
+    font-size: 22px;
 }
