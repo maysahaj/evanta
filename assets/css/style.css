@@ -1423,7 +1423,7 @@ font-size: 20px;
 }
 
 button.More-notif{
-    padding: 4px 60px;
+    padding: 4px 50px;
     text-align: center;
     background: #D8AF55;
     border:none;
@@ -1437,10 +1437,9 @@ button.More-notif{
 
 }
 button.More-notif:hover{
-    border:2px solid #D8AF55;
-    color: #D8AF55;
-    background: #fff;
-    font-weight: bold;
+
+    color: #000;
+
 }
 /*
 .settings .modal {
@@ -2761,4 +2760,10 @@ margin: 0 auto;
 .det-mass span{
     font-size: 15px;
     color:#cac7c7;
+}
+.messages-page .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+   background-color: #d9dce0; 
+   border-color:transparent; 
 }
