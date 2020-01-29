@@ -2704,3 +2704,9 @@ margin: 0 auto;
     height: 10rem;
     overflow: hidden;
 }
+.card-add-sector h5{
+    font-size: 18px;
+}
+.card-add-sector span{
+    font-size: 15px;
+}
