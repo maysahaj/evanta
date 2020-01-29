@@ -2056,6 +2056,7 @@ ul.dropdown-menu{
     background: #fff;
     color:#000;
     
+    
 
 }
 
@@ -2545,14 +2546,25 @@ a.btn-book:hover{
         z-index: 1000;
         display: none;
         float: left;
-        min-width: 15rem;
-        padding: .5rem 0;
-        PADDING-INLINE-START: 2PX;
+        min-width: 17rem;
+        padding: .2rem 0;
+        PADDING-INLINE-START: 5PX;
+        padding-inline-end: 10PX;
+        border-right: 10px solid #D8AF55;
+        border-top: 4px solid #D8AF55;
+        
+
+     
     }
+ 
     .dropdown-menu li{
-    border-bottom: 1px solid #C9C9C9;
+    border-top: 1px solid #C9C9C9;
     
-    padding: 10px;
+    
+    padding: 7px;
+}
+li.list1{
+    border-top:0px;
 }
  .sharing-link .contact a i {
     font-size: 20px;
@@ -2794,3 +2806,6 @@ margin: 0 auto;
     padding: 17px 30px;
     padding-bottom: 50px;
 }
+
+
+ 
