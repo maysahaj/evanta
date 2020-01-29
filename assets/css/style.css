@@ -2686,3 +2686,11 @@ margin: 0 auto;
     position: relative;
     margin: 0 auto;
 }
+.add-post input{
+    border:0px;
+    border-bottom:1px solid #cfcfcf;
+    outline: 0px;
+}
+.add-post input:focus {
+	outline: none;
+}
