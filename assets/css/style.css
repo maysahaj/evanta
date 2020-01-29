@@ -2789,3 +2789,8 @@ margin: 0 auto;
     color:#a3a4a5;
     font-size: 22px;
 }
+.chat-footer {
+    border-top: 1px solid #e6e6e6;
+    padding: 17px 30px;
+    padding-bottom: 50px;
+}
