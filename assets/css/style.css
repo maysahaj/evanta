@@ -2556,14 +2556,16 @@ a.btn-book:hover{
      
     }
  
-    .dropdown-menu li{
-    border-top: 1px solid #C9C9C9;
-    
-    
+ .dropdown-menu li{
+    border-top: 1px solid #C9C9C9;   
     padding: 7px;
+}
+    .dropdown-menu li a:hover{
+    color:#D8AF55;
 }
 .dropdown:hover>.dropdown-menu {
     display: block;
+   
   }
   
   .dropdown>.dropdown-toggle:active {
