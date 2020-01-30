@@ -2562,6 +2562,13 @@ a.btn-book:hover{
     
     padding: 7px;
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
 li.list1{
     border-top:0px;
 }
