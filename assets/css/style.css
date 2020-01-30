@@ -2061,7 +2061,7 @@ ul.dropdown-menu{
 }
 
 .dropdown-submenu>.dropdown-menu {
-    top: 0;
+    top: auto;
     left: 100%;
     margin-top: -6px;
     margin-left: -1px;
@@ -2552,9 +2552,10 @@ a.btn-book:hover{
         padding-inline-end: 10PX;
         border-right: 10px solid #D8AF55;
         border-top: 4px solid #D8AF55;
-   
+      
      
     }
+
  
  .dropdown-menu li{
     border-top: 1px solid #C9C9C9;   
