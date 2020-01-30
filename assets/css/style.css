@@ -2542,13 +2542,13 @@ a.btn-book:hover{
     }
 .dropdown-menu {
         position: absolute;
-        top: 100%;
+        
         left: 0;
         z-index: 1000;
         display: none;
         float: left;
         min-width: 17rem;
-        padding: .2rem 0;
+        padding: .1rem 0;
         PADDING-INLINE-START: 5PX;
         padding-inline-end: 10PX;
         border-right: 10px solid #D8AF55;
@@ -2560,7 +2560,7 @@ a.btn-book:hover{
  
  .dropdown-menu li{
     border-top: 1px solid #C9C9C9;   
-    padding: 7px;
+    padding: 4px;
 }
     .dropdown-menu li a:hover{
     color:#D8AF55;
