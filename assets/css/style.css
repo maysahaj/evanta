@@ -2901,7 +2901,7 @@ font-weight: bold;
     margin-bottom:40px;
 
 }
-a.navbar-brand{
+#navbar a.navbar-brand{
     display: none;
 }
 
